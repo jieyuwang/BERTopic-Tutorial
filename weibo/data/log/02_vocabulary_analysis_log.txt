@@ -1,0 +1,371 @@
+============================================================
+微博数据词汇分析工具
+============================================================
+开始时间: 2025-06-29 15:13:23
+
+成功加载数据，共 89034 行
+列名: ['user', 'txt', 'date', 'time', 'repost', 'comment', 'like', 'link', 'site', 'type', 'Unnamed: 10', 'Unnamed: 11']
+
+=== 开始词汇分析 ===
+加载停用词 765 个
+加载用户自定义词典 106 个
+处理进度: 0/89034
+处理进度: 1000/89034
+处理进度: 2000/89034
+处理进度: 3000/89034
+处理进度: 4000/89034
+处理进度: 5000/89034
+处理进度: 6000/89034
+处理进度: 7000/89034
+处理进度: 8000/89034
+处理进度: 9000/89034
+处理进度: 10000/89034
+处理进度: 11000/89034
+处理进度: 12000/89034
+处理进度: 13000/89034
+处理进度: 14000/89034
+处理进度: 15000/89034
+处理进度: 16000/89034
+处理进度: 17000/89034
+处理进度: 18000/89034
+处理进度: 19000/89034
+处理进度: 20000/89034
+处理进度: 21000/89034
+处理进度: 22000/89034
+处理进度: 23000/89034
+处理进度: 24000/89034
+处理进度: 25000/89034
+处理进度: 26000/89034
+处理进度: 27000/89034
+处理进度: 28000/89034
+处理进度: 29000/89034
+处理进度: 30000/89034
+处理进度: 31000/89034
+处理进度: 32000/89034
+处理进度: 33000/89034
+处理进度: 34000/89034
+处理进度: 35000/89034
+处理进度: 36000/89034
+处理进度: 37000/89034
+处理进度: 38000/89034
+处理进度: 39000/89034
+处理进度: 40000/89034
+处理进度: 41000/89034
+处理进度: 42000/89034
+处理进度: 43000/89034
+处理进度: 44000/89034
+处理进度: 45000/89034
+处理进度: 46000/89034
+处理进度: 47000/89034
+处理进度: 48000/89034
+处理进度: 49000/89034
+处理进度: 50000/89034
+处理进度: 51000/89034
+处理进度: 52000/89034
+处理进度: 53000/89034
+处理进度: 54000/89034
+处理进度: 55000/89034
+处理进度: 56000/89034
+处理进度: 57000/89034
+处理进度: 58000/89034
+处理进度: 59000/89034
+处理进度: 60000/89034
+处理进度: 61000/89034
+处理进度: 62000/89034
+处理进度: 63000/89034
+处理进度: 64000/89034
+处理进度: 65000/89034
+处理进度: 66000/89034
+处理进度: 67000/89034
+处理进度: 68000/89034
+处理进度: 69000/89034
+处理进度: 70000/89034
+处理进度: 71000/89034
+处理进度: 72000/89034
+处理进度: 73000/89034
+处理进度: 74000/89034
+处理进度: 75000/89034
+处理进度: 76000/89034
+处理进度: 77000/89034
+处理进度: 78000/89034
+处理进度: 79000/89034
+处理进度: 80000/89034
+处理进度: 81000/89034
+处理进度: 82000/89034
+处理进度: 83000/89034
+处理进度: 84000/89034
+处理进度: 85000/89034
+处理进度: 86000/89034
+处理进度: 87000/89034
+处理进度: 88000/89034
+处理进度: 89000/89034
+
+总词汇数: 4,051,533
+唯一词汇数: 83,392
+
+=== 用户自定义词典建议 ===
+筛选条件: 频率 >= 5, 长度 2-10
+
+候选词汇数量: 27,321
+
+Top 50 高频词汇建议:
+--------------------------------------------------
+ 1. 洪水              (频率: 84311)
+ 2. 救援              (频率: 50017)
+ 3. 涿州              (频率: 45217)
+ 4. 北京              (频率: 41453)
+ 5. 河北              (频率: 41437)
+ 6. 收起              (频率: 30294)
+ 7. 暴雨              (频率: 25592)
+ 8. 群众              (频率: 22904)
+ 9. 人员              (频率: 19890)
+10. 被困              (频率: 18877)
+11. 转移              (频率: 17721)
+12. 防汛              (频率: 17508)
+13. 救援队             (频率: 16439)
+14. 安全              (频率: 16215)
+15. 新闻              (频率: 14291)
+16. 预警              (频率: 14026)
+17. 工作              (频率: 13939)
+18. 影响              (频率: 12221)
+19. 天津              (频率: 11984)
+20. 发布              (频率: 11376)
+21. 强降雨             (频率: 11139)
+22. 严重              (频率: 11020)
+23. 目前              (频率: 10909)
+24. 应急              (频率: 10810)
+25. 消防              (频率: 10783)
+26. 地区              (频率: 10416)
+27. 河道              (频率: 10080)
+28. 受灾              (频率: 9522)
+29. 消防员             (频率: 9116)
+30. 房山              (频率: 9092)
+31. 中国              (频率: 9049)
+32. 平安              (频率: 8934)
+33. 毫米              (频率: 8907)
+34. 队员              (频率: 8893)
+35. 门头沟             (频率: 8708)
+36. 致敬              (频率: 8660)
+37. 红色              (频率: 8658)
+38. 央视              (频率: 8644)
+39. 物资              (频率: 8494)
+40. 小区              (频率: 8474)
+41. 双方              (频率: 8445)
+42. 滞洪区             (频率: 8422)
+43. 保定              (频率: 8258)
+44. 冯振              (频率: 8142)
+45. 救灾              (频率: 8109)
+46. 停驶              (频率: 8086)
+47. 出现              (频率: 8053)
+48. 村民              (频率: 7859)
+49. 京津冀             (频率: 7793)
+50. 涿州市             (频率: 7774)
+
+=== 词汇模式分析 ===
+
+按词汇长度分布:
+长度 2: 52,185 个词, 总频率 3,434,970
+  Top 10: ['洪水', '救援', '涿州', '北京', '河北', '收起', '暴雨', '群众', '人员', '被困']
+长度 3: 18,350 个词, 总频率 421,843
+  Top 10: ['救援队', '强降雨', '消防员', '门头沟', '滞洪区', '京津冀', '涿州市', '北京市', '永定河', '河北省']
+长度 4: 9,705 个词, 总频率 177,851
+  Top 10: ['工作人员', '门头沟区', '抢险救灾', '洪涝灾害', '地质灾害', '注意安全', '抗洪救灾', '人民日报', '壮烈牺牲', '生命财产']
+长度 5: 2,148 个词, 总频率 11,748
+  Top 10: ['中央气象台', '中国气象局', 'K1178', '松花江流域', '中国青年报', '北京青年报', '亿多立方米', '十三陵水库', '常务委员会', '北京市政府']
+长度 6: 532 个词, 总频率 2,445
+  Top 10: ['武警北京总队', '6200ms', '3100ms', '中国工商银行', '中国农业银行', '最高人民法院', 'K26650', '国家税务总局', '北京市公安局', '河北师范大学']
+长度 7: 157 个词, 总频率 1,018
+  Top 10: ['中共中央政治局', '北京市人民政府', '最高人民检察院', '中华人民共和国', '114k349', '全国人大常委会', 'k0k3875', '中国人民解放军', '中央政治局常委', '澳门特别行政区']
+长度 8: 73 个词, 总频率 773
+  Top 10: ['北京大学第一医院', '中国红十字会总会', '250300mm', '联合国教科文组织', '1900BRTV', '中央政治局常委会', '300500mm', '北京航空航天大学', '100140mm', 'K396Z180']
+长度 9: 30 个词, 总频率 65
+  Top 10: ['X643K0000', '285KM500M', '中国儿童少年基金会', '344KM329M', '冰冻三尺非一日之寒', '美国有线电视新闻网', 'zhaotan56', 'D32403740', 'D65706770', 'D71697269']
+长度 10: 24 个词, 总频率 40
+  Top 10: ['中共中央政治局常委会', '中国青少年发展基金会', '围场满族蒙古族自治县', '北京市西城区人民法院', 'cctvcom360', 'abcljp2023', '联合国粮食及农业组织', 'GB57492022', 'sunbathe85', 'gaokai1979']
+长度 11: 22 个词, 总频率 33
+  Top 10: ['K0000K14969', 'CCHEREA1ex6', '中国人民抗日战争纪念馆', 'Jansson1914', '中国证券监督管理委员会', 'NO472023731', 'httptcnA60N', '北京市第一中级人民法院', '北京市第二中级人民法院', 'setcdefg180']
+长度 12: 22 个词, 总频率 101
+  Top 10: ['K11870K14000', 'K70465K76989', '5gnvip5GnVIP', '13126652826L', '250mgL500mgL', 'K73900K82900', '00Cinderella', 'Aponattawin1', 'K26900K28100', 'BettyHan0216']
+长度 13: 14 个词, 总频率 53
+  Top 10: ['K396K1178Z180', 'Z180K1178K396', 'K396Z180K1178', 'c30214delGTGA', 'Desperado0000', 'uid3938716772', 'lacoste110104', 'VioletTian517', 'Buildurluve4U', 'httptcnA60TVW']
+长度 14: 22 个词, 总频率 203
+  Top 10: ['K117000K121700', 'K628036K640080', 'X536K6246K6334', 'X643K0000K5710', 'X422K4365K9853', 'jimu1701163com', 'httptcnR2WxXIG', '1000mgL2000mgL', 'Kneedoyeah2020', 'K7800K15500105']
+长度 15: 52 个词, 总频率 138
+  Top 10: ['X544k7100k13400', 'S233K0000K14969', 'baoliaosy163com', 'httptcnA60QhKz9', '5000mgL10000mgL', 'httptcnA60NlIkM', 'httptcnA60TVWJd', 'httptcnA60C9xti', 'httptcnA6003KYh', 'httptcnA60WKdPa']
+长度 16: 19 个词, 总频率 101
+  Top 10: ['S310k13565k23926', 'S120k29808k42310', 'cnshangyou163com', 'G112K20080K22568', 'chingwhite202004', 'K2273000K2272400', 'K2435000K2499276', 'K2171000K2236000', 'K2200000K2235000', 'K1917900K1918200']
+长度 17: 5 个词, 总频率 13
+  Top 10: ['K858475MK872000M7', 'K831664MK884000M8', '15230437806upupup', 'ISBN9787100197243', 'ISBN9787100159586']
+长度 18: 1 个词, 总频率 1
+  Top 10: ['622KM600M623KM400M']
+长度 19: 1 个词, 总频率 1
+  Top 10: ['WW11SYredYfebflower']
+长度 20: 1 个词, 总频率 14
+  Top 10: ['G112K1138942K1141200']
+长度 23: 1 个词, 总频率 3
+  Top 10: ['0312397650803123976509O']
+长度 25: 1 个词, 总频率 2
+  Top 10: ['0312397650803123976509via']
+长度 30: 1 个词, 总频率 1
+  Top 10: ['xhpfmcommentid11641969doctype0']
+长度 40: 4 个词, 总频率 8
+  Top 10: ['httpmapi9a67fc6aly1hghcv4a9xrj20dw0dw3zz', 'httpmapi9c2b5f31ly1hgh6f1ete8j20ku0q10w7', 'httpmapi008g9lv8ly1hgnybsdye6j30am0amglo', 'httpmapie6cb6d04ly1hgqailpcqcj20rr0fmtcx']
+长度 42: 13 个词, 总频率 98
+  Top 10: ['httpmapi002TLsr9ly1hgrth7dircj61j80vuh5702', 'httpmapi001DitQpgy1hgjvunlg6nj60j90c9n4c02', 'httpmapi001UqMn1ly1hghawalz44j60wi0igmyu02', 'httpmapi005vnhZYgy1hgj8qn98qkj61xg1g1b2a02', 'httpmapi005vnhZYgy1hghi7yw1p6j60sr0g60v402', 'httpmapi001qXXGogy1hgqgixpujbj60xc0idq4f02', 'httpmapi002TLsr9ly1hgt4vovn9ij60zk1bfwpg02', 'httpmapi001RhaGLly1hggz8flkukj63k02o0qv802', 'httpmapi001qXXGogy1hgh52yyytfj60jg0ymgrz02', 'httpmapi005vnhZYgy1hgh9u4lb48j60k00zkgq502']
+长度 43: 1 个词, 总频率 1
+  Top 10: ['httpmapi002TLsr9ly1hgrth7dircj61j80vuh5702L']
+长度 45: 1 个词, 总频率 1
+  Top 10: ['httpmapi002TLsr9ly1hgrth7dircj61j80vuh5702via']
+长度 927: 1 个词, 总频率 1
+  Top 10: ['httpsmpweixinqqcomsbizMjM5MjA0OTUwMAmid2653529462idx1sn25034369cc51ec125acc770a549e7b35chksmbd7135458a06bc53c2fbac68c551d849c9fe9e22c440a94ac6fc35bda2107636b0f320f92fddxtrack1scene90subscene93sessionid1691139414flutterpos0clicktime1691141083enterid1691141083finderbizenterid4ascene56fasttmpltype0fasttmplfullversion6795949zhCNzipfasttmplflag0realreporttime1691141084001devicetypeandroid29version2800283bnettypeWIFIabtestcookieAAACAA3D3DlangzhCNsessionusgh3dda95af34d0countrycodeCNexportkeynChQIAhIQTmN2FttVjphcHm4J5alXQPRLkAQIE97dBBAEAAAAAAHBmBxetAKEAAAAOpnltbLcz9gKNyK89dVj0Hkmwl13KizMSlkmHXSbOmkSlFmnXutT0jU9AJtwegKz4QoxwiZt6Cj6M7ngYkv5e80N6qc2BxduxugNHv58p23ilWQ49h5Ag3tbMpqxnkaFHNaXv4Tk8Lq2Fn4lhZ6EyQoaI4dfYmI6bY56BvPVv2BLOPBPGgJlz2BmB2BCe3MpzsjFfkcjIPxm2BJbTpmyE8tSB7HAf2F8uDb3osGfkED82FEIUwhRGrct7A7F6xyvSiX4akR1yBfo6y1Av0WD4eXiXTg3D3DpassticketCBS5Ax6NNr7bGSIcQQXCCsm2PlyStwCFVx2BccI2BknNrZ1RWciD2yoSz26G2BcDXqrwxheader3']
+长度 986: 1 个词, 总频率 1
+  Top 10: ['20230826httpsmpweixinqqcomsbizMTI0MDU3NDYwMQmid2657555538idx1sn75dcc8ae4d019345ca06da45b36c7598chksm7a5de9b44d2a60a23f431abfef1025a5a4bc61e7850d2c60e109edcbe479a43a647728d6f605mpshare1srcid08269dXfFbozEABQ64Wrhkw5sharersharetime1693001387078sharershareid7b9046d84f5b5b10a6c065fd4eff8de9fromtimelinescene2subscene1sessionid1693001313clicktime1693008273enterid1693008273ascene2fasttmpltype0fasttmplfullversion6827916zhCNzipfasttmplflag0realreporttime1693008273015devicetypeandroid33version28002851nettypeWIFIabtestcookieAAACAA3D3DlangzhCNcountrycodeCNexportkeynChQIAhIQnxPw7b4THw6lY61RXDlFnhLfAQIE97dBBAEAAAAAAH3NMnUvO7AAAAAOpnltbLcz9gKNyK89dVj0LTEafHI9BaaBQg14x2Bx3qYhWbYAFaPZSVz0lQvGffLVYLj1eKhRc8V06k0ry1THQBrsF52j2UW5X1rM9iUDeMHbvMTO9Lpby2BPVzyPq2FQXtF0N01D2FbcyE2BT8PBUUekVNlt26qebcYWc7vKy7k2BfI79V5d6OWEnQoQl0zwu2LRDxsFUCxxkVsY4Kc7Q2FNB2D8gDRZFwczvz5ktkr4QPB7spwj8Fx1IQwiUt2Vod2B6oxUiUGDhXwH6as3DpassticketAxrczaqoJT12FeFtv01CEPd8xXy2FxdxZybFSnHpKN6t9HwPNBj4UuKlZWlEHE2Fw6Nwxheader3']
+长度 987: 1 个词, 总频率 1
+  Top 10: ['httpsmpweixinqqcomsbizMjM5NTE1OTQyMQmid2651295324idx1sn008d55d89f6ab0deccd0ef274762af8achksmbd0fe24e8a786b589c1c9b47f07f026fe3da4ad9caf5d92eaeeaa6318066cd8d0af2c40df16empshare1srcid08013HYWuSRWqnm3pz2ye3Rnsharersharetime1690821214578sharershareidc4de23eb4aba782d6262edc458137fcafromtimelinescene2subscene2sessionid1690821178clicktime1690821718enterid1690821718ascene45fasttmpltype0fasttmplfullversion6791447zhCNzipfasttmplflag0realreporttime1690821718097devicetypeandroid29version28002837nettypeWIFIabtestcookieAAACAA3D3DlangzhCNcountrycodeCNexportkeynChQIAhIQOLX492B3lwtpZQ0ZnI0GoBBLhAQIE97dBBAEAAAAAACQbM6K06eEAAAAOpnltbLcz9gKNyK89dVj02BnW8204E2zBLuqmzuOoAOhrehKNE0uZnTYvUyF2FERkHAfRyVQfvVI0N2s9Hl2FsKRvHDcGwwWeG4UA78PofIXG2BpCdKKBb4etOO2Ff2WXF433l52B3UDzfTEr2DWr9T5LQWjmel2BDjdMXGsBLm6AI2WquJpvdDnk2aaOxOJxgrMFB9iPqrvuzguh6GIfBf2B2BYvfWCQGzbF2FqSyI52BlfibH50FxrrJA3GUQJw4v7RKIbvvD5Hxkcrcx4q1fsxw3D3DpassticketbKsy5nZ1cN9ZEy0Srj3xzosJmHe3EjPafIGc2F1xkMZ2FtfZEXGxx8AwKHKj6OPITDwxheader3']
+长度 988: 1 个词, 总频率 1
+  Top 10: ['20230809httpsmpweixinqqcomsbizMTI0MDU3NDYwMQmid2657549655idx1sn7ff877aa2421ec02f9db7474dc97dd99chksm7a5c00b14d2b89a7c73851b204ba19be9a6590643f69530aa63610b18306b6f703afff547366mpshare1srcid0809Kdm6pUxkla5voKE1UyIwsharersharetime1691532927262sharershareid7b9046d84f5b5b10a6c065fd4eff8de9fromtimelinescene2subscene1sessionid1691532883clicktime1691533248enterid1691533248ascene2fasttmpltype0fasttmplfullversion6803006zhCNzipfasttmplflag0realreporttime1691533248779devicetypeandroid33version2800283bnettypeWIFIabtestcookieAAACAA3D3DlangzhCNcountrycodeCNexportkeynChQIAhIQEyi2Bvm1Fo5M7LuVaTYbp8BLfAQIE97dBBAEAAAAAAHBWBxAk9rEAAAAOpnltbLcz9gKNyK89dVj0uWqih5anaFOka0IZ6ecj6IP2Fc46KdpDFy5js75gzieYCC4Ot23FoLc2BqA91lWjf4B6PJ2FBmANhQe7ctJVjHmXKa9LEbTKsyfdcuY9pLp2FOyR2krAKkp4UduRkaNkmdM2FPrYh464af0swOArrj4lLc2KS6q4RiKO63L7KCUVGSb7uOi6mD83djH7n7FrNkYMih65QppIyGAh516lv2BOzWtRaCMWTTzL1UD92BkHjRp9vZYGKXN9aP8k2BU3Dpassticket2BEZv2Bndh1Y2PXM9yDEHAT1cJQY9KtEx2B5InbHM0iabs66E3CR7oleevXsjt832FXnwxheader3']
+长度 992: 1 个词, 总频率 1
+  Top 10: ['20230812httpsmpweixinqqcomsbizMTI0MDU3NDYwMQmid2657550676idx1sn3e868bb4c2784ec07b350e4222f869b1chksm7a5dfcb24d2a75a4e9b438c1711741744e771534744de1dfd3be0d95cd5c1310cfe09bcba7b0mpshare1srcid0812JLpqLuXi6wf8R2ahGan4sharersharetime1691791284652sharershareid7b9046d84f5b5b10a6c065fd4eff8de9fromtimelinescene2subscene1sessionid1691791222clicktime1691794052enterid1691794052ascene2fasttmpltype0fasttmplfullversion6803006zhCNzipfasttmplflag0realreporttime1691794052483devicetypeandroid33version2800283fnettypeWIFIabtestcookieAAACAA3D3DlangzhCNcountrycodeCNexportkeynChQIAhIQnJNtsg2FxNN2B4VWNUct5O9RLfAQIE97dBBAEAAAAAAINdCFClM2BwAAAAOpnltbLcz9gKNyK89dVj0vE2FKnIYJ2N5MUpsuA51wpR2B9XqX28S2B7oPx2B2XOfUkWL12pv6f2oy2Bab2B89gNCdDz2FhIdHN7vhQw3Vn9cQjCBMKWzQLrwv3bTseWn8nRqFncetwXOteqv2Fj2FSIM2ldukwwTvXuPP2DRFW2Ft7ylp01pR5U2FPM0SvCjzu2IrQTx7rnaozsMaBdNU1fh14gBIOsLflO2FLfB9ZUKrwsxHacAPMIqJdDuuuKQYwBvrqhXY2BY5lyn0ypm0bH03DpassticketJuEYifAo2F4luM0H5Ak18mYapM8Trv6XU5ECfIHpMdIHiF6kgxTdJV78RzBDwpV5nwxheader3']
+长度 1001: 1 个词, 总频率 2
+  Top 10: ['20230731httpsmpweixinqqcomsbizMTI0MDU3NDYwMQmid2657546668idx1snf8ad5102a17c2431417033e44ffca15achksm7a5c0c4a4d2b855c690f0fe932c760d156c294458f87be740d836a58c2927f75352e2cda06a8mpshare1srcid0731SGfK2lV0ndaq1W0JzLTDsharersharetime1690754608748sharershareid7b9046d84f5b5b10a6c065fd4eff8de9fromtimelinescene2subscene1sessionid1690754560clicktime1690756663enterid1690756663ascene2fasttmpltype0fasttmplfullversion6785795zhCNzipfasttmplflag0realreporttime1690756663638devicetypeandroid33version28002658nettype3gnetabtestcookieAAACAA3D3DlangzhCNcountrycodeCNexportkeynChQIAhIQBSVn1rIVDZFE085OmI87cxLfAQIE97dBBAEAAAAAAIIYECEPf3UAAAAOpnltbLcz9gKNyK89dVj0yb2Fmgc2FTbsK39l6f0q0ILfShbdOoBozR92Hrqe3NNt2F2FSLRuLPekQ0x4KP2BcVnyvRlT12F2BA12FA543utaa2DpfZsmIgrs5HERD2Fun6yPuxmpBYZXNC7M35il2FKy7uuKbJATdV2FMzFp7sRYZkkjnWBEcl2F2B6y0D2LHxlbUJlWDr7wDUTgrXcZ2m9R2Fj26G9e8C98eSqu2FrUlFny2F3y2BjxusZt2BLAVcg3aKRuuku9yc8PTopTj2BwLWddD83Dpassticket2FklSEJnexnhd2F6XK7bjzoEFkVaTQ2B2BGDQMue2BT6a2FCMqU41OIlSjXTyufVmRzDsLwxheader3']
+长度 1950: 1 个词, 总频率 1
+  Top 10: ['httpsmpweixinqqcomsbizMTI0MDU3NDYwMQmid2657549318idx1sn5d56420374acf57e75f58f1d36956a5echksm7a5c01e04d2b88f61c795029c2970550a3069751b5c943afcd408457079cbcae6855e0410a4cmpshare1srcid0808UI5E4HBo6rMUptiLqp3ssharersharetime1691447161441sharershareid7b9046d84f5b5b10a6c065fd4eff8de9fromtimelinescene2subscene1sessionid1691447123clicktime1691449943enterid1691449943ascene2fasttmpltype0fasttmplfullversion6801426zhCNzipfasttmplflag0realreporttime1691449943604devicetypeandroid33version2800283bnettypeWIFIabtestcookieAAACAA3D3DlangzhCNcountrycodeCNexportkeynChQIAhIQkcW7RfYRgh2F99QH1S0XubRLfAQIE97dBBAEAAAAAAERSIbTu2goAAAAOpnltbLcz9gKNyK89dVj09FfpUXNj0b2FNzzWKR5eFbAEhLZlpgHxFQbH8opOSUr8MWSPifee8trsnkzRIGFMSjDu2FRUhwA15nDkukBr9hPnvS4k4e2BMxUV2BfJ0F1HT2O3Ls1nO3FKEWAbXJJ4eJybYEBLunpmXklE98SwGXe3ghblaHuQ1bYYC8WDbPJENX5vdbzkPL9fXMILzsVbZbWxMQghHhaTA0IqabmakaMFlSNDKqaX2Bgi61xeMYwRlsofxWB2BTRkp7znU3DpassticketcbETlP3ikRaeEqJTfYj06xmwqvu9Dd7LE58hlIiLRfmnG5xaHPWEtzG2Fs6AfangBwxheader3httpsmpweixinqqcomsbizMTI0MDU3NDYwMQmid2657549318idx1sn5d56420374acf57e75f58f1d36956a5echksm7a5c01e04d2b88f61c795029c2970550a3069751b5c943afcd408457079cbcae6855e0410a4cmpshare1srcid0808UI5E4HBo6rMUptiLqp3ssharersharetime1691447161441sharershareid7b9046d84f5b5b10a6c065fd4eff8de9fromtimelinescene2subscene1sessionid1691447123clicktime1691449943enterid1691449943ascene2fasttmpltype0fasttmplfullversion6801426zhCNzipfasttmplflag0realreporttime1691449943604devicetypeandroid33version2800283bnettypeWIFIabtestcookieAAACAA3D3DlangzhCNcountrycodeCNexportkeynChQIAhIQkcW7RfYRgh2F99QH1S0XubRLfAQIE97dBBAEAAAAAAERSIbTu2goAAAAOpnltbLcz9gKNyK89dVj09FfpUXNj0b2FNzzWKR5eFbAEhLZlpgHxFQbH8opOSUr8MWSPifee8trsnkzRIGFMSjDu2FRUhwA15nDkukBr9hPnvS4k4e2BMxUV2BfJ0F1HT2O3Ls1nO3FKEWAbXJJ4eJybYEBLunpmXklE98SwGXe3ghblaHuQ1bYYC8WDbPJENX5vdbzkPL9fXMILzsVbZbWxMQghHhaTA0IqabmakaMFlSNDKqaX2Bgi61xeMYwRlsofxWB2BTRkp7znU3DpassticketcbETlP3ikRaeEqJTfYj06xmwqvu9Dd7LE58hlIiLRfmnG5xaHPWEtzG2Fs6AfangBwxheader3']
+
+=== 主题关键词分析 ===
+
+TF-IDF Top 50 关键词:
+--------------------------------------------------
+ 1. 洪水              (TF-IDF: 0.0511, 频率: 84311)
+ 2. 涿州              (TF-IDF: 0.0408, 频率: 45217)
+ 3. 北京              (TF-IDF: 0.0385, 频率: 41453)
+ 4. 救援              (TF-IDF: 0.0375, 频率: 50017)
+ 5. 平安              (TF-IDF: 0.0374, 频率: 8934)
+ 6. 河北              (TF-IDF: 0.0353, 频率: 41437)
+ 7. 视频              (TF-IDF: 0.0331, 频率: 0)
+ 8. 致敬              (TF-IDF: 0.0325, 频率: 8660)
+ 9. 微博              (TF-IDF: 0.0265, 频率: 0)
+10. 暴雨              (TF-IDF: 0.0258, 频率: 25592)
+11. 祈祷              (TF-IDF: 0.0236, 频率: 6576)
+12. 英雄              (TF-IDF: 0.0183, 频率: 5612)
+13. 被困              (TF-IDF: 0.0181, 频率: 18877)
+14. 辛苦              (TF-IDF: 0.0181, 频率: 3713)
+15. 群众              (TF-IDF: 0.0177, 频率: 22904)
+16. 收起              (TF-IDF: 0.0176, 频率: 30294)
+17. 人员              (TF-IDF: 0.0174, 频率: 19890)
+18. 救援队             (TF-IDF: 0.0171, 频率: 16439)
+19. 预警              (TF-IDF: 0.0161, 频率: 14026)
+20. 转移              (TF-IDF: 0.0152, 频率: 17721)
+21. 天津              (TF-IDF: 0.0145, 频率: 11984)
+22. 新闻              (TF-IDF: 0.0141, 频率: 14291)
+23. 发布              (TF-IDF: 0.0139, 频率: 11376)
+24. 我们              (TF-IDF: 0.0138, 频率: 0)
+25. 加油              (TF-IDF: 0.0137, 频率: 2678)
+26. 安全              (TF-IDF: 0.0135, 频率: 16215)
+27. 一路              (TF-IDF: 0.0134, 频率: 2557)
+28. 希望              (TF-IDF: 0.0130, 频率: 4789)
+29. 红色              (TF-IDF: 0.0130, 频率: 8658)
+30. 消防员             (TF-IDF: 0.0129, 频率: 9116)
+31. 注意安全            (TF-IDF: 0.0128, 频率: 2306)
+32. 严重              (TF-IDF: 0.0126, 频率: 11020)
+33. 大家              (TF-IDF: 0.0122, 频率: 6226)
+34. 防汛              (TF-IDF: 0.0120, 频率: 17508)
+35. 男子              (TF-IDF: 0.0117, 频率: 7626)
+36. 消防              (TF-IDF: 0.0114, 频率: 10783)
+37. 中国              (TF-IDF: 0.0112, 频率: 9049)
+38. 门头沟             (TF-IDF: 0.0111, 频率: 8708)
+39. 保定              (TF-IDF: 0.0111, 频率: 8258)
+40. 房山              (TF-IDF: 0.0106, 频率: 9092)
+41. 升级              (TF-IDF: 0.0102, 频率: 5188)
+42. 影响              (TF-IDF: 0.0101, 频率: 12221)
+43. 他们              (TF-IDF: 0.0100, 频率: 0)
+44. 小区              (TF-IDF: 0.0097, 频率: 8474)
+45. 人民              (TF-IDF: 0.0097, 频率: 7270)
+46. 冯振              (TF-IDF: 0.0096, 频率: 8142)
+47. 强降雨             (TF-IDF: 0.0096, 频率: 11139)
+48. 央视              (TF-IDF: 0.0096, 频率: 8644)
+49. 泄洪              (TF-IDF: 0.0093, 频率: 6153)
+50. 转发              (TF-IDF: 0.0091, 频率: 3401)
+
+=== 生成词云图 ===
+词云图已保存到: data/wordcloud.png
+
+=== 生成更新后的用户自定义词典 ===
+更新后的词典已保存到: 分词/userdict.txt
+原有词汇: 106 个
+新增词汇: 100 个
+总词汇: 106 个
+
+========================================
+词汇分析统计报告
+========================================
+总文本数: 89,018
+总词汇数: 4,051,533
+唯一词汇数: 83,392
+候选词典词汇数: 27,321
+
+词汇长度分布:
+  长度2: 52,185 个词 (62.6%)
+  长度3: 18,350 个词 (22.0%)
+  长度4: 9,705 个词 (11.6%)
+  长度5: 2,148 个词 (2.6%)
+  长度6: 532 个词 (0.6%)
+  长度7: 157 个词 (0.2%)
+  长度8: 73 个词 (0.1%)
+  长度9: 30 个词 (0.0%)
+  长度10: 24 个词 (0.0%)
+  长度11: 22 个词 (0.0%)
+  长度12: 22 个词 (0.0%)
+  长度13: 14 个词 (0.0%)
+  长度14: 22 个词 (0.0%)
+  长度15: 52 个词 (0.1%)
+  长度16: 19 个词 (0.0%)
+  长度17: 5 个词 (0.0%)
+  长度18: 1 个词 (0.0%)
+  长度19: 1 个词 (0.0%)
+  长度20: 1 个词 (0.0%)
+  长度23: 1 个词 (0.0%)
+  长度25: 1 个词 (0.0%)
+  长度30: 1 个词 (0.0%)
+  长度40: 4 个词 (0.0%)
+  长度42: 13 个词 (0.0%)
+  长度43: 1 个词 (0.0%)
+  长度45: 1 个词 (0.0%)
+  长度927: 1 个词 (0.0%)
+  长度986: 1 个词 (0.0%)
+  长度987: 1 个词 (0.0%)
+  长度988: 1 个词 (0.0%)
+  长度992: 1 个词 (0.0%)
+  长度1001: 1 个词 (0.0%)
+  长度1950: 1 个词 (0.0%)
+
+Top 20 高频词汇:
+   1. 洪水             : 84,311 次 (2.08%)
+   2. 救援             : 50,017 次 (1.23%)
+   3. 涿州             : 45,217 次 (1.12%)
+   4. 北京             : 41,453 次 (1.02%)
+   5. 河北             : 41,437 次 (1.02%)
+   6. 收起             : 30,294 次 (0.75%)
+   7. 暴雨             : 25,592 次 (0.63%)
+   8. 群众             : 22,904 次 (0.57%)
+   9. 人员             : 19,890 次 (0.49%)
+  10. 被困             : 18,877 次 (0.47%)
+  11. 转移             : 17,721 次 (0.44%)
+  12. 防汛             : 17,508 次 (0.43%)
+  13. 救援队            : 16,439 次 (0.41%)
+  14. 安全             : 16,215 次 (0.40%)
+  15. 新闻             : 14,291 次 (0.35%)
+  16. 预警             : 14,026 次 (0.35%)
+  17. 工作             : 13,939 次 (0.34%)
+  18. 影响             : 12,221 次 (0.30%)
+  19. 天津             : 11,984 次 (0.30%)
+  20. 发布             : 11,376 次 (0.28%)
+
+结束时间: 2025-06-29 15:15:47
+============================================================
+词汇分析完成！
+============================================================
+
+建议:
+1. 查看 'data/wordcloud.png' 了解词汇分布
+2. 查看 '分词/userdict_updated.txt' 获取更新后的词典
+3. 根据业务需求调整词典内容

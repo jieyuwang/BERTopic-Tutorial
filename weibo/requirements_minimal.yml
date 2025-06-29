@@ -1,0 +1,33 @@
+name: BERTopic-Tutorial-Minimal
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - pip:
+    # 核心主题建模包
+    - bertopic==0.15.0
+    - sentence-transformers==2.2.2
+    - transformers==4.29.1
+    
+    # 聚类和降维
+    - hdbscan==0.8.39
+    - umap-learn==0.5.3
+    
+    # 中文分词
+    - jieba==0.42.1
+    
+    # 数据处理
+    - openpyxl==3.1.5
+    - tqdm==4.67.1
+    
+    # 深度学习框架
+    - torch==2.2.2 
