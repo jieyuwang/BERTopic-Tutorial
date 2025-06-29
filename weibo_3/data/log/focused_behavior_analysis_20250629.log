@@ -1,0 +1,191 @@
+2025-06-29 23:00:14 - focused_behavior_analysis - INFO - 开始分析原始微博数据...
+2025-06-29 23:00:14 - focused_behavior_analysis - INFO - === 原始微博数据分析 ===
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 数据形状: (89034, 12)
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 
+=== 基本统计 ===
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 总记录数: 89034
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 非空文本数: 89028
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 平均文本长度: 150.00
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 
+=== 前10条微博内容 ===
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 1. 【“杜苏芮”将于28日在福建福清到广东惠来一带沿海登陆】       国家防总办公室、应急管理部26日组织防汛防台风专题视频会商调度，与中国气象局、水利部、自然资源部会商研判今年第5号台风“杜苏芮”发展态势，视频连线福建、广东、浙江、四川等省份防指办公室，调度部署重点地区防汛防台风工作。      ...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 2. 【国家防总提升防汛防台风应急响应至三级】今年第5号台风“杜苏芮”逐渐向闽粤沿海靠近。记者26日从应急管理部获悉，国家防总当日将防汛防台风应急响应提升至三级，派出4个工作组赴浙江、福建、广东、江西协助指导防汛防台风工作。国家防总办公室、应急管理部26日组织防汛防台风专题视频会商调度，与中国气象局、水利...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 3. 【#国家防总提升防汛防台风应急响应至三级#】#台风杜苏芮# 7月26日，国家防总办公室、应急管理部组织防汛防台风专题视频会商调度，与中国气象局、水利部、自然资源部会商研判今年第5号台风“杜苏芮”发展态势，视频连线福建、广东、浙江、四川等省份防指办公室，调度部署重点地区防汛防台风工作。据会商研判，台风...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 4. 遥遥想起两年前的这个时候大约我在去往北京的高铁上，途径河南时因为害怕暴雨的余波将火车冲垮而彻夜难眠。回程时经过被洪水毁掉的庄稼农田，车厢安静得令人窒息。 ​...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 5. 所以怎么敢忘呢，焉知那不是我的命运...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 6. 【#今日16时起河北启动洪水防御Ⅳ级应急响应#】按照《河北省水利厅水旱灾害防御应急响应工作规程》，河北省水利厅决定于今日16时针对全省水利系统启动洪水防御Ⅳ级应急响应。据预测，今年第5号台风“杜苏芮”将于7月28日在福建、广东附近登陆，随后将向西北方向移动。受其登陆影响，7月28日至8月1日，河北大...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 7. 【台风“杜苏芮”将带来大到暴雨，河北启动洪水防御Ⅳ级应急响应】按照《河北省水利厅水旱灾害防御应急响应工作规程》，省水利厅决定于今天16时针对全省水利系统启动洪水防御Ⅳ级应急响应。据预测，今年第5号台风“杜苏芮”将于7月28日在福建、广东附近登陆，随后将向西北方向移动。受其登陆影响，7月28日至8月1...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 8. #河北启动洪水防御Ⅳ级应急响应#按照《河北省水利厅水旱灾害防御应急响应工作规程》，河北省水利厅决定于今日16时针对全省水利系统启动洪水防御Ⅳ级应急响应。据预测，今年第5号台风“杜苏芮”将于7月28日在福建、广东附近登陆，随后将向西北方向移动。受其登陆影响，7月28日至8月1日，河北大部将有大到暴雨，...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 9. #台风杜苏芮将一路北上或影响河北#【台风“杜苏芮”将带来大到暴雨#河北启动洪水防御Ⅳ级应急响应#】#未来三天河北雨不停# 氛围到位了就等雨了 ​...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 10. #台风杜苏芮将一路北上或影响河北#【台风“杜苏芮”将带来大到暴雨#河北启动洪水防御Ⅳ级应急响应#】#未来三天河北雨不停# 赶紧下吧 ​...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 
+=== 随机抽样20条微博 ===
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 75122. 几张截图就开始了，现在造谣成本这么低吗...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 64030. 共度难关...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 27296. 【#房山十渡2失联村人员平安#！北京房山因洪水失联村全部复联】据北京日报，由公安、武警战士、消防救援人员还有镇村两级干部组成的突击队成功抵达十渡镇西石门村、北石门村，目前2个村的人员平安，意味着因本次洪水导致的房山失联村，已全部复联。#侦察兵攀崖挺进失联村画面#↓L央视军事的微博视频 ​​​ 收起d...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 68094. 致敬...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 50049. #京西行有感#        前几天，也就是周末，我和朋友抽空去门头沟灾区捐送了一些矿泉水和蜡烛，沿途经过了一些受灾严重的地方，比如南辛房村、王平镇等地，看到了被洪水冲垮的房屋、车辆等惨像。      我在想，这次洪灾是北京继2012年7月21日特大洪灾之后，又一次比较重大的洪灾，造成了33人死亡，...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 11447. #涿州大马村村民被困二楼等待救援#，女子：水势还在涨，房屋就两层上不去了#工作人员称涿州救援难度大# L观察者网微丢视频的微博视频 ​​​...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 77335. 希望你这辈子的家业归零，然后重新挣回来。加油！...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 1369. 全身上下就腿最白 长期穿裤子捂得[偷乐]要不是大雨怕衣服湿 轻易不外露[打call][打call][打call]...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 2098. #京津冀降雨关注#【#海河流域发生流域性较大洪水#】记者从水利部获悉，受强降雨影响，7月31日11时，海河流域永定河水系永定河三家店水文站流量涨至622立方米每秒，大清河水系拒马河张坊水文站流量涨至1610立方米每秒，依据水利部《全国主要江河洪水编号规定》，分别编号为“永定河2023年第1号洪水”和...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 81221. 顶...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 2821. #北京门头沟房山等地河水暴涨#目前，门头沟、房山等地河水暴涨，还有几处塌方和小规模山洪等突发情况。总台记者今天下午2点左右在门头沟阜石路跨永定河大桥看到，河水已漫过堤坝。据了解，此处下泄流量达3700立方米/秒，已超过50年一遇的洪水级别。提醒：务必远离河道，注意安全！#北京门头沟大暴雨##门头沟暴...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 28036. 【直播！#河北防汛救援最新情况#】受连续强降雨和上游洪水过境影响，河北多地大面积积水，群众被困，道路和通讯中断，防汛形势严峻。目前，河北已陆续启用7处蓄滞洪区分泄洪水，各地也在加紧应急抢险。此外，#全国多地救援队增援河北#↓↓持续关注，盼平安！  L央视新闻的微博视频 ​​​...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 48683. 京津冀洪水入海“最后一关”观察 8月1日永定河洪水水头抵津，4日大清河洪水抵津……作为“九河下梢”的天津，承担着流域75%的洪水下泄任务，150多公里的渤海岸线上，分布着永定新河、海河、子牙新河、独流减河等多条河流的入海口。记者日前走访洪水入海口附近，探访当地是如何迎战洪水的。 O网页链接 收起d...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 8310. #北京暴雨救援#不少车被冲走，车里没有人。暴雨之后是洪水，有不少车被冲走。宣传保障到位。车里都没有人。切记远离河道，注意安全。 L法职_庞九林律师的微博视频 ​...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 21742. 感动于不常联系的朋友关注我的人生安全（最近新闻报道河北北京暴雨洪水）也感动于女生与女生的感情共鸣虽然不常联系，却依旧很熟稔能有一人一直不偏不倚地等我，也很感动 ​...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 7320. 【#消防员开铲车去半山腰接被困人员#】7月31日，北京昌平，暴雨导致一车辆在半山腰抛锚，水流湍急，2人被困。消防员紧急赶赴，协调铲车将被困人员救出接到安全地带。#愿风雨中的你平安##北京升级发布洪水红色预警# L中国消防的微博视频 ​​​...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 44147. 【#洪水退去村民光脚蹚50公分淤泥回家#】8月6日，河北。当洪水退去后，涿州的受灾村庄，一村民大姐踩着厚厚的50公分的淤泥回家，大姐说：“有想过什么都没了，回家看看就安心了。@大湾区视频 L大湾区视频的微博视频 ​...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 69481. 辛苦...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 68875. 绵薄之力  原平安...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 49496. 【暴雨#洪水过后居家消毒要注意什么#？】进入室内后，应尽快将积水清除。在室内环境消毒前，先对室内进行彻底的环境清污，清理动物尸体、淤泥、垃圾和粪便，清除生活污水和各种积水等，做好无害化处理。↓ ​#应急科普##北京特大暴雨造成近129万人受灾# ​...
+2025-06-29 23:00:25 - focused_behavior_analysis - INFO - 
+=== 关键词分析 ===
+2025-06-29 23:01:03 - focused_behavior_analysis - INFO - 高频词汇 (前20):
+2025-06-29 23:01:03 - focused_behavior_analysis - INFO -   洪水: 84312
+2025-06-29 23:01:03 - focused_behavior_analysis - INFO -   救援: 50029
+2025-06-29 23:01:03 - focused_behavior_analysis - INFO -   涿州: 45265
+2025-06-29 23:01:03 - focused_behavior_analysis - INFO -   北京: 41463
+2025-06-29 23:01:03 - focused_behavior_analysis - INFO -   视频: 41396
+2025-06-29 23:01:03 - focused_behavior_analysis - INFO -   河北: 41302
+2025-06-29 23:01:03 - focused_behavior_analysis - INFO -   微博: 31265
+2025-06-29 23:01:03 - focused_behavior_analysis - INFO -   收起: 30294
+2025-06-29 23:01:03 - focused_behavior_analysis - INFO -   暴雨: 25623
+2025-06-29 23:01:03 - focused_behavior_analysis - INFO -   群众: 22927
+2025-06-29 23:01:03 - focused_behavior_analysis - INFO -   人员: 19903
+2025-06-29 23:01:03 - focused_behavior_analysis - INFO -   被困: 18789
+2025-06-29 23:01:03 - focused_behavior_analysis - INFO -   转移: 17721
+2025-06-29 23:01:03 - focused_behavior_analysis - INFO -   防汛: 17507
+2025-06-29 23:01:03 - focused_behavior_analysis - INFO -   救援队: 16437
+2025-06-29 23:01:03 - focused_behavior_analysis - INFO -   安全: 16246
+2025-06-29 23:01:03 - focused_behavior_analysis - INFO -   新闻: 14319
+2025-06-29 23:01:03 - focused_behavior_analysis - INFO -   预警: 14027
+2025-06-29 23:01:03 - focused_behavior_analysis - INFO -   工作: 13944
+2025-06-29 23:01:03 - focused_behavior_analysis - INFO -   我们: 13008
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO - 
+=== 行为关键词分析 ===
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO - 
+信息搜索相关:
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   请问
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   谁知道
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   求问
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   帮忙
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   需要
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   了解
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   确认
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   核实
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   求证
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   是否
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   真假
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   真的吗
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   关注
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   跟踪
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   更新
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   最新
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   情况
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   进展
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   建议
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   怎么办
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   如何
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   应该
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   推荐
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   意见
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO - 
+亲社会行为相关:
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   求助
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   求救
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   救命
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   紧急
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   被困
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   危险
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   需要帮助
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   帮助
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   支援
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   捐赠
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   志愿者
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   互助
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   团结
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   一起
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   提供
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   分享
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   免费
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   开放
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   可用
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   有需要
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   加油
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   支持
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   鼓励
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   安慰
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   理解
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   陪伴
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   感谢
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   感动
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   温暖
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   希望
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   信心
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   坚强
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO - 
+=== 行为分类合理性评估 ===
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO - 当前行为分类存在的问题:
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO - 1. 基础设施中断/修复行为过于技术化，微博用户很少使用这些专业术语
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO - 2. 政府救助行为分类合理，但关键词可能需要调整
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO - 3. 公众行为分类过于简单，没有涵盖微博的主要表达方式
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO - 4. 缺少对微博特有表达方式的分析（如转发、评论、@用户等）
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO - 
+=== 聚焦的行为分类建议 ===
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO - 聚焦后的行为分类:
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO - 
+紧急求助行为:
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   生命安全求助: 救命, 被困, 危险, 紧急, 快...
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   生活需求求助: 求助, 需要帮助, 帮忙, 支持, 援助...
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   信息需求求助: 请问, 谁知道, 求问, 咨询, 了解...
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO - 
+信息搜索行为:
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   主动询问: 请问, 谁知道, 求问, 帮忙, 需要...
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   信息求证: 真的吗, 确认, 核实, 求证, 是否...
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   关注动态: 关注, 跟踪, 更新, 最新, 情况...
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   寻求建议: 建议, 怎么办, 如何, 应该, 推荐...
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO - 
+互助支援行为:
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   紧急救援: 救援, 抢险, 救助, 转移, 疏散...
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   物资支援: 捐赠, 支援, 提供, 分享, 免费...
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   志愿服务: 志愿者, 互助, 团结, 一起, 参与...
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO -   情感支持: 加油, 支持, 鼓励, 安慰, 理解...
+2025-06-29 23:01:04 - focused_behavior_analysis - INFO - 
+=== 数据分布分析 ===
+2025-06-29 23:01:09 - focused_behavior_analysis - INFO - 行为分类数据分布:
+2025-06-29 23:01:09 - focused_behavior_analysis - INFO - 
+紧急求助行为:
+2025-06-29 23:01:09 - focused_behavior_analysis - INFO -   总匹配数: 57998
+2025-06-29 23:01:09 - focused_behavior_analysis - INFO -   占比: 65.14%
+2025-06-29 23:01:09 - focused_behavior_analysis - INFO -     生命安全求助: 40621 (45.62%)
+2025-06-29 23:01:09 - focused_behavior_analysis - INFO -     生活需求求助: 14083 (15.82%)
+2025-06-29 23:01:09 - focused_behavior_analysis - INFO -     信息需求求助: 3294 (3.70%)
+2025-06-29 23:01:09 - focused_behavior_analysis - INFO - 
+信息搜索行为:
+2025-06-29 23:01:09 - focused_behavior_analysis - INFO -   总匹配数: 40683
+2025-06-29 23:01:09 - focused_behavior_analysis - INFO -   占比: 45.69%
+2025-06-29 23:01:09 - focused_behavior_analysis - INFO -     主动询问: 11976 (13.45%)
+2025-06-29 23:01:09 - focused_behavior_analysis - INFO -     信息求证: 2562 (2.88%)
+2025-06-29 23:01:09 - focused_behavior_analysis - INFO -     关注动态: 17388 (19.53%)
+2025-06-29 23:01:09 - focused_behavior_analysis - INFO -     寻求建议: 8757 (9.84%)
+2025-06-29 23:01:09 - focused_behavior_analysis - INFO - 
+互助支援行为:
+2025-06-29 23:01:09 - focused_behavior_analysis - INFO -   总匹配数: 85757
+2025-06-29 23:01:09 - focused_behavior_analysis - INFO -   占比: 96.32%
+2025-06-29 23:01:09 - focused_behavior_analysis - INFO -     紧急救援: 50178 (56.36%)
+2025-06-29 23:01:09 - focused_behavior_analysis - INFO -     物资支援: 13738 (15.43%)
+2025-06-29 23:01:09 - focused_behavior_analysis - INFO -     志愿服务: 11103 (12.47%)
+2025-06-29 23:01:09 - focused_behavior_analysis - INFO -     情感支持: 10738 (12.06%)
+2025-06-29 23:01:09 - focused_behavior_analysis - INFO - 
+=== 生成数据分布可视化 ===
+2025-06-29 23:01:10 - focused_behavior_analysis - INFO - 数据分布图已保存到 data/behavior_distribution_analysis.png
+2025-06-29 23:01:10 - focused_behavior_analysis - INFO - 创建聚焦的行为分析脚本...
+2025-06-29 23:01:10 - focused_behavior_analysis - INFO - 聚焦的行为分析脚本已保存到 weibo_3/focused_behavior_analysis.py
+2025-06-29 23:01:10 - focused_behavior_analysis - INFO - 
+分析完成！
+2025-06-29 23:01:10 - focused_behavior_analysis - INFO - 建议:
+2025-06-29 23:01:10 - focused_behavior_analysis - INFO - 1. 使用聚焦的行为分类：信息搜索行为和亲社会行为
+2025-06-29 23:01:10 - focused_behavior_analysis - INFO - 2. 根据数据分布结果调整关键词
+2025-06-29 23:01:10 - focused_behavior_analysis - INFO - 3. 重点关注匹配度较高的子分类

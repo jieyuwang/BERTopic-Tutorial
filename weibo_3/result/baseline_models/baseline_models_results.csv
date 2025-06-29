@@ -1,0 +1,7 @@
+Model,Precision,Recall,F1-Score,CV Mean,CV Std
+SVM,0.821,0.820,0.812,0.773,0.011
+LogisticRegression,0.786,0.772,0.756,0.727,0.011
+DecisionTree,0.799,0.805,0.800,0.733,0.016
+NaiveBayes,0.795,0.765,0.742,0.722,0.011
+KNN,0.776,0.713,0.674,0.651,0.029
+RandomForest,0.808,0.812,0.805,0.768,0.013

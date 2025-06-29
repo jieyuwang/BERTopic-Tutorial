@@ -1,0 +1,28 @@
+2025-06-29 23:40:55 - behavior_analysis - INFO - === 4. 行为分析开始 ===
+2025-06-29 23:40:56 - behavior_analysis - INFO - 加载清洗后数据
+2025-06-29 23:40:56 - behavior_analysis - INFO - 数据规模: 89027 条记录
+2025-06-29 23:40:56 - behavior_analysis - INFO - 构建改进的行为关键词词典...
+2025-06-29 23:40:56 - behavior_analysis - INFO - 改进的行为关键词词典构建完成，包含 60 个关键词
+2025-06-29 23:40:56 - behavior_analysis - INFO - 创建改进的训练数据...
+2025-06-29 23:40:56 - behavior_analysis - INFO - 训练数据创建完成，样本数量: 2000
+2025-06-29 23:40:56 - behavior_analysis - INFO - 训练行为识别模型...
+2025-06-29 23:40:57 - behavior_analysis - INFO - 行为识别模型评估结果:
+2025-06-29 23:40:57 - behavior_analysis - INFO - 准确率: 0.808
+2025-06-29 23:40:57 - behavior_analysis - INFO - 召回率: 0.812
+2025-06-29 23:40:57 - behavior_analysis - INFO - F1分数: 0.805
+2025-06-29 23:40:57 - behavior_analysis - INFO - 
+详细分类报告:
+2025-06-29 23:40:57 - behavior_analysis - INFO -               precision    recall  f1-score   support
+
+      互助支援行为       0.78      0.64      0.70        88
+      信息搜索行为       0.83      0.95      0.89       222
+      紧急求助行为       0.77      0.64      0.70        90
+
+    accuracy                           0.81       400
+   macro avg       0.80      0.74      0.76       400
+weighted avg       0.81      0.81      0.81       400
+
+2025-06-29 23:40:57 - behavior_analysis - INFO - 预测行为类型...
+2025-06-29 23:41:05 - behavior_analysis - INFO - 分析行为分布...
+2025-06-29 23:41:08 - behavior_analysis - INFO - 行为分析报告已保存到 result/behavior/behavior_analysis_report.txt
+2025-06-29 23:41:08 - behavior_analysis - INFO - === 4. 行为分析完成 ===

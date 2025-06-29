@@ -1,0 +1,34 @@
+2025-06-29 23:14:52 - main_analysis - INFO - 开始综合分析...
+2025-06-29 23:14:52 - main_analysis - INFO - 加载分析结果...
+2025-06-29 23:14:54 - main_analysis - INFO - 加载清洗后数据
+2025-06-29 23:14:54 - main_analysis - INFO - 加载数据完成，共89,027条记录
+2025-06-29 23:14:54 - main_analysis - INFO - 生成综合分析报告...
+2025-06-29 23:14:54 - main_analysis - INFO - 创建可视化图表...
+2025-06-29 23:14:54 - main_analysis - INFO - 创建综合可视化图表...
+2025-06-29 23:15:07 - main_analysis - INFO - 综合可视化图表已保存到 data/image/comprehensive_analysis_visualizations.png
+2025-06-29 23:15:09 - main_analysis - INFO - 最终分析结果已保存到 result/final_analysis_results.csv
+2025-06-29 23:15:09 - main_analysis - INFO - 综合分析完成！
+2025-06-29 23:15:09 - main_analysis - INFO - 
+生成的文件:
+2025-06-29 23:15:09 - main_analysis - INFO - - result/comprehensive_analysis_report.txt (综合分析报告)
+2025-06-29 23:15:09 - main_analysis - INFO - - data/image/comprehensive_analysis_visualizations.png (综合可视化图表)
+2025-06-29 23:15:09 - main_analysis - INFO - - data/image/improved_behavior_analysis.png (改进行为分类可视化)
+2025-06-29 23:15:09 - main_analysis - INFO - - data/log/improved_behavior_statistics_report.txt (行为分类统计报告)
+2025-06-29 23:15:09 - main_analysis - INFO - - result/final_analysis_results.csv (最终分析结果数据)
+2025-06-29 23:31:16 - main_analysis - INFO - 开始综合分析...
+2025-06-29 23:31:16 - main_analysis - INFO - 加载分析结果...
+2025-06-29 23:31:21 - main_analysis - INFO - 加载情感分析结果数据
+2025-06-29 23:31:21 - main_analysis - INFO - 加载数据完成，共89,027条记录
+2025-06-29 23:31:21 - main_analysis - INFO - 生成综合分析报告...
+2025-06-29 23:31:22 - main_analysis - INFO - 创建可视化图表...
+2025-06-29 23:31:22 - main_analysis - INFO - 创建综合可视化图表...
+2025-06-29 23:31:30 - main_analysis - INFO - 综合可视化图表已保存到 data/image/comprehensive_analysis_visualizations.png
+2025-06-29 23:31:34 - main_analysis - INFO - 最终分析结果已保存到 result/final_analysis_results.csv
+2025-06-29 23:31:34 - main_analysis - INFO - 综合分析完成！
+2025-06-29 23:31:34 - main_analysis - INFO - 
+生成的文件:
+2025-06-29 23:31:34 - main_analysis - INFO - - result/comprehensive_analysis_report.txt (综合分析报告)
+2025-06-29 23:31:34 - main_analysis - INFO - - data/image/comprehensive_analysis_visualizations.png (综合可视化图表)
+2025-06-29 23:31:34 - main_analysis - INFO - - data/image/improved_behavior_analysis.png (改进行为分类可视化)
+2025-06-29 23:31:34 - main_analysis - INFO - - data/log/improved_behavior_statistics_report.txt (行为分类统计报告)
+2025-06-29 23:31:34 - main_analysis - INFO - - result/final_analysis_results.csv (最终分析结果数据)
