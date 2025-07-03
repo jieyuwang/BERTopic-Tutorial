@@ -212,6 +212,13 @@ def analyze_high_quality_results(topic_model, topics, texts):
     topic_info = topic_model.get_topic_info()
     print(f"主题统计信息:")
     print(topic_info.head(10))
+    topics_over_time = topic_model.topics_over_time(docs, timestamps, global_tuning=False, evolution_tuning=False)
+    topic_model.visualize_topics_over_time(topics_over_time)
+    print(topic_model.visualize_barchart())
+    #liubin add
+    print(topic_model.visualize_topics())#liubin add
+    print(topic_model.visualize_topics())#liubin add
+
     
     # 统计主题分布
     topic_counts = pd.Series(topics).value_counts().sort_index()

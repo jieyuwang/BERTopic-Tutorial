@@ -1,10 +1,10 @@
 日志文件: data/log/05_2_improve_bertopic_quality_log.txt
-开始时间: 2025-06-29 18:51:53
+开始时间: 2025-07-03 22:48:46
 ============================================================
 ============================================================
 改进版BERTopic主题建模工具（强力文本清洗）
 ============================================================
-开始时间: 2025-06-29 18:51:53
+开始时间: 2025-07-03 22:48:46
 
 === 加载和预处理数据 ===
 嵌入向量形状: (86816, 384)
@@ -38,55 +38,552 @@
 开始训练...
 ✓ 训练完成！
 ✓ 训练用时: 0.5 分钟
-✓ 发现主题数量: 10
+✓ 发现主题数量: 9
 
 === 改进版结果分析 ===
 主题统计信息:
    Topic  ...                                Representative_Docs
-0     -1  ...  [北京门头沟洪水来袭，有人浑水摸了一条大鱼。2北京永定河, 黑龙江省气象台2023年8月2日...
-1      0  ...  [10岁女童在门头沟被水冲走，请有知情人速与家长联系。, 东城坊镇贾村162号，187322...
-2      1  ...  [【8月1日完整版】受台风杜苏芮影响，京津冀地区遭遇极端罕见强降雨。如今三天时间过去，降雨虽...
-3      2  ...  [暴雨过后两只鸡站在木头上，在洪水中漂流！网友我要是能救到它俩，我就养着，死了也不吃，给它俩...
-4      3  ...  [【暴雨来了怎么办？】中国气象规定，24小时降水量为50毫米或以上的雨称为暴雨。在山区，暴雨...
+0     -1  ...  [相同的比例尺，图一杭州钱塘河道，图二北京房山，我觉得北京相关部门可以根据地势多建几条类似京...
+1      0  ...  [紧急寻人！10岁河南女童北京探亲被水冲走：身穿粉红短袖黑裤。如有线索，请联系：131266...
+2      1  ...  [大家关注一下小城市人的死活吧！保持热度，我的家是桃桃园三结义的地方，是三国文化的起源地！它...
+3      2  ...  [【注意，】因受第5号台风杜苏芮影响，永定河上游突降暴雨，洪水已进入永定河泛区，为保障通行安...
+4      3  ...  [【8月1日完整版】受台风杜苏芮影响，京津冀地区遭遇极端罕见强降雨。如今三天时间过去，降雨虽...
 5      4  ...  [我人在外地，涿州家中有老人孩子被洪水困住，村里已经彻底没有信号，水位还在上涨，急需解救，位...
-6      5  ...  [【】据消息，受台风影响，京津冀地区持续强降雨，导致北京丰台至沙城铁路（丰沙线）严重水害，为...
-7      6  ...  [最近几天北京一直下雨，房山门头沟昌平依次爆出暴雨洪水严重的消息，看着视频中无情的洪水无奈的...
-8      7  ...  [希望在今天帮助过别人的好人都能平安2北京北遇映画, 在这轮降雨中，石家庄石太铁路线秀林段，...
-9      8  ...  [【，其中2人在抢险救灾中因公殉职】记者从市防汛抗旱指挥部获悉：受台风杜苏芮影响，北京自7月...
+6      5  ...  [涿州公安局全体民辅警一直战斗在在抗洪抢险第一线！据我了解，有的民警自己家中已经进水，自己的...
+7      6  ...  [最让人寒心的不是大灾大难而是在生死面前极少部分北京ip网民的狂言妄语那种傲慢与冷漠可能才是...
+8      7  ...  [这个七月的最后几天竟也成为了见证历史的人，听着外面扫水的声音，还是很难想象上半年刚刚去过的...
 
-[10 rows x 5 columns]
+[9 rows x 5 columns]
+警告：时间戳数量(88612)与文本数量(15000)不一致，跳过topics_over_time分析
+Figure({
+    'data': [{'marker': {'color': '#D55E00'},
+              'orientation': 'h',
+              'type': 'bar',
+              'x': [0.09193338344216981, 0.11001736527263957, 0.12170124571829961,
+                    0.12822216158989905, 0.13843799551652744],
+              'xaxis': 'x',
+              'y': [3l  , 812473181ld  , 731108113126652826ld  , 600ld  ,
+                    8118111aaaaa73072918d  ],
+              'yaxis': 'y'},
+             {'marker': {'color': '#0072B2'},
+              'orientation': 'h',
+              'type': 'bar',
+              'x': [0.11869411518871814, 0.1255702234348582, 0.14298669313155096,
+                    0.17035522189427763, 0.17686740295927492],
+              'xaxis': 'x2',
+              'y': [812260ld  , 199212731114912471od  , 281202300ld  , 30l  ,
+                    7312202ld  ],
+              'yaxis': 'y2'},
+             {'marker': {'color': '#CC79A7'},
+              'orientation': 'h',
+              'type': 'bar',
+              'x': [0.09343684897705311, 0.10732446510079735, 0.12176597419668557,
+                    0.14363414818476736, 0.18553539018188653],
+              'xaxis': 'x3',
+              'y': [281202300ld  , 81300ld  , 731351822ld  ,
+                    81600731171006007318181731818113812381licd  , 30l  ],
+              'yaxis': 'y3'},
+             {'marker': {'color': '#E69F00'},
+              'orientation': 'h',
+              'type': 'bar',
+              'x': [0.231012091726478, 0.25161582486601836, 0.40842342737989246,
+                    0.410385039913445, 1.0822390884800004],
+              'xaxis': 'x4',
+              'y': [8112141450ld  , 2023731731721400721od  , 81800d  ,
+                    731813122525251782731731od  , 73181od  ],
+              'yaxis': 'y4'},
+             {'marker': {'color': '#56B4E9'},
+              'orientation': 'h',
+              'type': 'bar',
+              'x': [0.05878318045210761, 0.05984973015885546, 0.06047697674988821,
+                    0.06908854142511876, 0.07731641046981934],
+              'xaxis': 'x5',
+              'y': [ld  , 731117l  , k396z1801218706813ld  , 73122ld  , 731ld  ],
+              'yaxis': 'y5'},
+             {'marker': {'color': '#009E73'},
+              'orientation': 'h',
+              'type': 'bar',
+              'x': [0.037407331875489565, 0.03796168750194772,
+                    0.04774138868423072, 0.05163803308348177, 0.05447260058456627],
+              'xaxis': 'x6',
+              'y': [72917301972981300231209121101193456789d  ,
+                    300292031131769346832215809ld  , ld  , 731l  , 7298130023120d
+                    ],
+              'yaxis': 'y6'},
+             {'marker': {'color': '#F0E442'},
+              'orientation': 'h',
+              'type': 'bar',
+              'x': [0.07575884537488484, 0.07748539479139765, 0.09173688147299977,
+                    0.10378850274767218, 0.12065185044804978],
+              'xaxis': 'x7',
+              'y': [72917307298147298177297308134678173081250600121956815612202002
+                    427d  , 2l  , ljackerjin  , 202372917307298130023120d  ,
+                    5729101002213729d  ],
+              'yaxis': 'y7'},
+             {'marker': {'color': '#D55E00'},
+              'orientation': 'h',
+              'type': 'bar',
+              'x': [0.04518783094429559, 0.04569045135166341, 0.05236119957855634,
+                    0.05460079993462576, 0.06917294957771533],
+              'xaxis': 'x8',
+              'y': [3111311214ld  , 730ld  , 731ld  , 731l  , ld  ],
+              'yaxis': 'y8'}],
+    'layout': {'annotations': [{'font': {'size': 16},
+                                'showarrow': False,
+                                'text': 'Topic 0',
+                                'x': 0.0875,
+                                'xanchor': 'center',
+                                'xref': 'paper',
+                                'y': 1.0,
+                                'yanchor': 'bottom',
+                                'yref': 'paper'},
+                               {'font': {'size': 16},
+                                'showarrow': False,
+                                'text': 'Topic 1',
+                                'x': 0.36250000000000004,
+                                'xanchor': 'center',
+                                'xref': 'paper',
+                                'y': 1.0,
+                                'yanchor': 'bottom',
+                                'yref': 'paper'},
+                               {'font': {'size': 16},
+                                'showarrow': False,
+                                'text': 'Topic 2',
+                                'x': 0.6375000000000001,
+                                'xanchor': 'center',
+                                'xref': 'paper',
+                                'y': 1.0,
+                                'yanchor': 'bottom',
+                                'yref': 'paper'},
+                               {'font': {'size': 16},
+                                'showarrow': False,
+                                'text': 'Topic 3',
+                                'x': 0.9125,
+                                'xanchor': 'center',
+                                'xref': 'paper',
+                                'y': 1.0,
+                                'yanchor': 'bottom',
+                                'yref': 'paper'},
+                               {'font': {'size': 16},
+                                'showarrow': False,
+                                'text': 'Topic 4',
+                                'x': 0.0875,
+                                'xanchor': 'center',
+                                'xref': 'paper',
+                                'y': 0.4,
+                                'yanchor': 'bottom',
+                                'yref': 'paper'},
+                               {'font': {'size': 16},
+                                'showarrow': False,
+                                'text': 'Topic 5',
+                                'x': 0.36250000000000004,
+                                'xanchor': 'center',
+                                'xref': 'paper',
+                                'y': 0.4,
+                                'yanchor': 'bottom',
+                                'yref': 'paper'},
+                               {'font': {'size': 16},
+                                'showarrow': False,
+                                'text': 'Topic 6',
+                                'x': 0.6375000000000001,
+                                'xanchor': 'center',
+                                'xref': 'paper',
+                                'y': 0.4,
+                                'yanchor': 'bottom',
+                                'yref': 'paper'},
+                               {'font': {'size': 16},
+                                'showarrow': False,
+                                'text': 'Topic 7',
+                                'x': 0.9125,
+                                'xanchor': 'center',
+                                'xref': 'paper',
+                                'y': 0.4,
+                                'yanchor': 'bottom',
+                                'yref': 'paper'}],
+               'height': 500,
+               'hoverlabel': {'bgcolor': 'white', 'font': {'family': 'Rockwell', 'size': 16}},
+               'showlegend': False,
+               'template': '...',
+               'title': {'font': {'color': 'Black', 'size': 22},
+                         'text': 'Topic Word Scores',
+                         'x': 0.5,
+                         'xanchor': 'center',
+                         'yanchor': 'top'},
+               'width': 1000,
+               'xaxis': {'anchor': 'y', 'domain': [0.0, 0.175], 'showgrid': True},
+               'xaxis2': {'anchor': 'y2', 'domain': [0.275, 0.45], 'showgrid': True},
+               'xaxis3': {'anchor': 'y3', 'domain': [0.55, 0.7250000000000001], 'showgrid': True},
+               'xaxis4': {'anchor': 'y4', 'domain': [0.825, 1.0], 'showgrid': True},
+               'xaxis5': {'anchor': 'y5', 'domain': [0.0, 0.175], 'showgrid': True},
+               'xaxis6': {'anchor': 'y6', 'domain': [0.275, 0.45], 'showgrid': True},
+               'xaxis7': {'anchor': 'y7', 'domain': [0.55, 0.7250000000000001], 'showgrid': True},
+               'xaxis8': {'anchor': 'y8', 'domain': [0.825, 1.0], 'showgrid': True},
+               'yaxis': {'anchor': 'x', 'domain': [0.6000000000000001, 1.0], 'showgrid': True},
+               'yaxis2': {'anchor': 'x2', 'domain': [0.6000000000000001, 1.0], 'showgrid': True},
+               'yaxis3': {'anchor': 'x3', 'domain': [0.6000000000000001, 1.0], 'showgrid': True},
+               'yaxis4': {'anchor': 'x4', 'domain': [0.6000000000000001, 1.0], 'showgrid': True},
+               'yaxis5': {'anchor': 'x5', 'domain': [0.0, 0.4], 'showgrid': True},
+               'yaxis6': {'anchor': 'x6', 'domain': [0.0, 0.4], 'showgrid': True},
+               'yaxis7': {'anchor': 'x7', 'domain': [0.0, 0.4], 'showgrid': True},
+               'yaxis8': {'anchor': 'x8', 'domain': [0.0, 0.4], 'showgrid': True}}
+})
+Figure({
+    'data': [{'customdata': array([[0,
+                                    '8118111aaaaa73072918d | 600ld | 731108113126652826ld | 812473181ld | 3l',
+                                    522],
+                                   [1, '7312202ld | 30l | 281202300ld | 199212731114912471od | 812260ld',
+                                    283],
+                                   [2,
+                                    '30l | 81600731171006007318181731818113812381licd | 731351822ld | 81300ld | 281202300ld',
+                                    166],
+                                   [3,
+                                    '73181od | 731813122525251782731731od | 81800d | 2023731731721400721od | 8112141450ld',
+                                    160],
+                                   [4, '731ld | 73122ld | k396z1801218706813ld | 731117l | ld', 372],
+                                   [5,
+                                    '7298130023120d | 731l | ld | 300292031131769346832215809ld | 72917301972981300231209121101193456789d',
+                                    1694],
+                                   [6,
+                                    '5729101002213729d | 202372917307298130023120d | ljackerjin | 2l | 72917307298147298177297308134678173081250600121956815612202002427d',
+                                    209],
+                                   [7, 'ld | 731l | 731ld | 730ld | 3111311214ld', 6704]], dtype=object),
+              'hovertemplate': '<b>Topic %{customdata[0]}</b><br>%{customdata[1]}<br>Size: %{customdata[2]}',
+              'legendgroup': '',
+              'marker': {'color': '#B0BEC5',
+                         'line': {'color': 'DarkSlateGrey', 'width': 2},
+                         'size': {'bdata': 'CgIbAaYAoAB0AZ4G0QAwGg==', 'dtype': 'i2'},
+                         'sizemode': 'area',
+                         'sizeref': 4.19,
+                         'symbol': 'circle'},
+              'mode': 'markers',
+              'name': '',
+              'orientation': 'v',
+              'showlegend': False,
+              'type': 'scatter',
+              'x': {'bdata': 'AxEKQdsLPEDukh1AtGgOQd+grT/7ohU/dANVQCTfJUA=', 'dtype': 'f4'},
+              'xaxis': 'x',
+              'y': {'bdata': 'WHGQvn2hU0GcYmtBe4U3vMsGeUEkfnlBGrNqQdTddEE=', 'dtype': 'f4'},
+              'yaxis': 'y'}],
+    'layout': {'annotations': [{'showarrow': False,
+                                'text': 'D1',
+                                'x': 0.4968404144048691,
+                                'y': 8.803929251432418,
+                                'yshift': 10},
+                               {'showarrow': False,
+                                'text': 'D2',
+                                'x': 5.366243521869182,
+                                'xshift': 10,
+                                'y': 17.932290458679198}],
+               'height': 650,
+               'hoverlabel': {'bgcolor': 'white', 'font': {'family': 'Rockwell', 'size': 16}},
+               'legend': {'itemsizing': 'constant', 'tracegroupgap': 0},
+               'margin': {'t': 60},
+               'shapes': [{'line': {'color': '#CFD8DC', 'width': 2},
+                           'type': 'line',
+                           'x0': 5.366243521869182,
+                           'x1': 5.366243521869182,
+                           'y0': -0.3244319558143616,
+                           'y1': 17.932290458679198},
+                          {'line': {'color': '#9E9E9E', 'width': 2},
+                           'type': 'line',
+                           'x0': 0.4968404144048691,
+                           'x1': 10.235646629333496,
+                           'y0': 8.803929251432418,
+                           'y1': 8.803929251432418}],
+               'sliders': [{'active': 0,
+                            'pad': {'t': 50},
+                            'steps': [{'args': [{'marker.color': [['red',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5']]}],
+                                       'label': 'Topic 0',
+                                       'method': 'update'},
+                                      {'args': [{'marker.color': [['#B0BEC5',
+                                                                  'red', '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5']]}],
+                                       'label': 'Topic 1',
+                                       'method': 'update'},
+                                      {'args': [{'marker.color': [['#B0BEC5',
+                                                                  '#B0BEC5', 'red',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5']]}],
+                                       'label': 'Topic 2',
+                                       'method': 'update'},
+                                      {'args': [{'marker.color': [['#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5', 'red',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5']]}],
+                                       'label': 'Topic 3',
+                                       'method': 'update'},
+                                      {'args': [{'marker.color': [['#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5', 'red',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5']]}],
+                                       'label': 'Topic 4',
+                                       'method': 'update'},
+                                      {'args': [{'marker.color': [['#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5', 'red',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5']]}],
+                                       'label': 'Topic 5',
+                                       'method': 'update'},
+                                      {'args': [{'marker.color': [['#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5', 'red',
+                                                                  '#B0BEC5']]}],
+                                       'label': 'Topic 6',
+                                       'method': 'update'},
+                                      {'args': [{'marker.color': [['#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  'red']]}],
+                                       'label': 'Topic 7',
+                                       'method': 'update'}]}],
+               'template': '...',
+               'title': {'font': {'color': 'Black', 'size': 22},
+                         'text': '<b>Intertopic Distance Map</b>',
+                         'x': 0.5,
+                         'xanchor': 'center',
+                         'y': 0.95,
+                         'yanchor': 'top'},
+               'width': 650,
+               'xaxis': {'anchor': 'y',
+                         'domain': [0.0, 1.0],
+                         'range': [0.4968404144048691, 10.235646629333496],
+                         'title': {'text': ''},
+                         'visible': False},
+               'yaxis': {'anchor': 'x',
+                         'domain': [0.0, 1.0],
+                         'range': [-0.3244319558143616, 17.932290458679198],
+                         'title': {'text': ''},
+                         'visible': False}}
+})
+Figure({
+    'data': [{'customdata': array([[0,
+                                    '8118111aaaaa73072918d | 600ld | 731108113126652826ld | 812473181ld | 3l',
+                                    522],
+                                   [1, '7312202ld | 30l | 281202300ld | 199212731114912471od | 812260ld',
+                                    283],
+                                   [2,
+                                    '30l | 81600731171006007318181731818113812381licd | 731351822ld | 81300ld | 281202300ld',
+                                    166],
+                                   [3,
+                                    '73181od | 731813122525251782731731od | 81800d | 2023731731721400721od | 8112141450ld',
+                                    160],
+                                   [4, '731ld | 73122ld | k396z1801218706813ld | 731117l | ld', 372],
+                                   [5,
+                                    '7298130023120d | 731l | ld | 300292031131769346832215809ld | 72917301972981300231209121101193456789d',
+                                    1694],
+                                   [6,
+                                    '5729101002213729d | 202372917307298130023120d | ljackerjin | 2l | 72917307298147298177297308134678173081250600121956815612202002427d',
+                                    209],
+                                   [7, 'ld | 731l | 731ld | 730ld | 3111311214ld', 6704]], dtype=object),
+              'hovertemplate': '<b>Topic %{customdata[0]}</b><br>%{customdata[1]}<br>Size: %{customdata[2]}',
+              'legendgroup': '',
+              'marker': {'color': '#B0BEC5',
+                         'line': {'color': 'DarkSlateGrey', 'width': 2},
+                         'size': {'bdata': 'CgIbAaYAoAB0AZ4G0QAwGg==', 'dtype': 'i2'},
+                         'sizemode': 'area',
+                         'sizeref': 4.19,
+                         'symbol': 'circle'},
+              'mode': 'markers',
+              'name': '',
+              'orientation': 'v',
+              'showlegend': False,
+              'type': 'scatter',
+              'x': {'bdata': 'phNeQbdex8DSjevAVGpiQSbnwcASCsnA6n72wAvm/MA=', 'dtype': 'f4'},
+              'xaxis': 'x',
+              'y': {'bdata': 'sFpKQAgJvkEAXrdBKAA5QFR2tUEaSbFBTXC9QYf5tkE=', 'dtype': 'f4'},
+              'yaxis': 'y'}],
+    'layout': {'annotations': [{'showarrow': False,
+                                'text': 'D1',
+                                'x': -9.088543629646301,
+                                'y': 14.887305307388306,
+                                'yshift': 10},
+                               {'showarrow': False,
+                                'text': 'D2',
+                                'x': 3.5925296187400813,
+                                'xshift': 10,
+                                'y': 27.317571258544923}],
+               'height': 650,
+               'hoverlabel': {'bgcolor': 'white', 'font': {'family': 'Rockwell', 'size': 16}},
+               'legend': {'itemsizing': 'constant', 'tracegroupgap': 0},
+               'margin': {'t': 60},
+               'shapes': [{'line': {'color': '#CFD8DC', 'width': 2},
+                           'type': 'line',
+                           'x0': 3.5925296187400813,
+                           'x1': 3.5925296187400813,
+                           'y0': 2.4570393562316895,
+                           'y1': 27.317571258544923},
+                          {'line': {'color': '#9E9E9E', 'width': 2},
+                           'type': 'line',
+                           'x0': -9.088543629646301,
+                           'x1': 16.273602867126463,
+                           'y0': 14.887305307388306,
+                           'y1': 14.887305307388306}],
+               'sliders': [{'active': 0,
+                            'pad': {'t': 50},
+                            'steps': [{'args': [{'marker.color': [['red',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5']]}],
+                                       'label': 'Topic 0',
+                                       'method': 'update'},
+                                      {'args': [{'marker.color': [['#B0BEC5',
+                                                                  'red', '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5']]}],
+                                       'label': 'Topic 1',
+                                       'method': 'update'},
+                                      {'args': [{'marker.color': [['#B0BEC5',
+                                                                  '#B0BEC5', 'red',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5']]}],
+                                       'label': 'Topic 2',
+                                       'method': 'update'},
+                                      {'args': [{'marker.color': [['#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5', 'red',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5']]}],
+                                       'label': 'Topic 3',
+                                       'method': 'update'},
+                                      {'args': [{'marker.color': [['#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5', 'red',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5']]}],
+                                       'label': 'Topic 4',
+                                       'method': 'update'},
+                                      {'args': [{'marker.color': [['#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5', 'red',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5']]}],
+                                       'label': 'Topic 5',
+                                       'method': 'update'},
+                                      {'args': [{'marker.color': [['#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5', 'red',
+                                                                  '#B0BEC5']]}],
+                                       'label': 'Topic 6',
+                                       'method': 'update'},
+                                      {'args': [{'marker.color': [['#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  '#B0BEC5',
+                                                                  'red']]}],
+                                       'label': 'Topic 7',
+                                       'method': 'update'}]}],
+               'template': '...',
+               'title': {'font': {'color': 'Black', 'size': 22},
+                         'text': '<b>Intertopic Distance Map</b>',
+                         'x': 0.5,
+                         'xanchor': 'center',
+                         'y': 0.95,
+                         'yanchor': 'top'},
+               'width': 650,
+               'xaxis': {'anchor': 'y',
+                         'domain': [0.0, 1.0],
+                         'range': [-9.088543629646301, 16.273602867126463],
+                         'title': {'text': ''},
+                         'visible': False},
+               'yaxis': {'anchor': 'x',
+                         'domain': [0.0, 1.0],
+                         'range': [2.4570393562316895, 27.317571258544923],
+                         'title': {'text': ''},
+                         'visible': False}}
+})
 
 主题分布 (前15个):
-异常值主题: 6,494 个文档
-主题 0: 522 个文档 - 8118111aaaaa73072918d, 600ld, 731108113126652826ld, 812473181ld, 3l, 3ld, 13290546777d, 8128d, 72988111355143573008110133913ld, 73181old
-主题 1: 160 个文档 - 73181od, 81800d, 731813122525251782731731od, 2023731731721400721od, 8112141450ld, 281g6330232223ld, 812473181ld, 3ld, 1953830731700607315103160401711060d, 20177311712old
-主题 2: 283 个文档 - 7312202ld, 30l, 281202300ld, 199212731114912471od, 812260ld, 199212731114912471d, 731ld, 81300ld, ld, 73181884303810615app2015lvnewsd
-主题 3: 216 个文档 - ld, 12, 731108113126652826ld, 8121110722000ld, 81300ld, tm, 81903ld, 8130060081ld, 21d, 731lld
-主题 4: 355 个文档 - 73122ld, 731ld, k396z1801218706813ld, 199212, 731117l, 49813117243049811234d, 731108113126652826ld, 292031131769322158093111ld, ld, 730labd
-主题 5: 176 个文档 - 5729101002213729d, 202372917307298130023120d, 72917307298147298177297308134678173081250600121956815612202002427d, 2822239ld, 3111311214, 73110, ip, 72929203122236322343923435569063110111118201272137507307311998700viad, 7292ld, 107107
-主题 6: 1,596 个文档 - 7298130023120d, ld, 300292031131769346832215809ld, 731l, 303467120150200300508025729093006228d, 813132020ld, 7298130231209121101193456789d, 73110810810015025070120150d, 30ld, 72981
-主题 7: 1,841 个文档 - ld, 3111311214ld, 731ld, 3111311214, 2, 730ld, 731l, ild, 730labd, 72929203122236322343923435569063110111118201272137507307311998700d
-主题 8: 3,357 个文档 - ld, 731l, 2023731312215cm40cm651583123d, 731ld, 731917ld, 730ld, 300292031131769346832215809ld, 2370050ld, 30l, 2920311317693221580931115000d
+异常值主题: 4,890 个文档
+主题 0: 522 个文档 - 8118111aaaaa73072918d, 600ld, 731108113126652826ld, 812473181ld, 3l, 3ld, 13290546777d, 8128d, 73181old, 72988111355143573008110133913ld
+主题 1: 283 个文档 - 7312202ld, 30l, 281202300ld, 199212731114912471od, 812260ld, 199212731114912471d, 731ld, ld, 81300ld, 73181884303810615app2015lvnewsd
+主题 2: 166 个文档 - 30l, 81600731171006007318181731818113812381licd, 731351822ld, 81300ld, 281202300ld, 5, 7311149124711992122ld, 7271374350319728922613218422421924924843477345184407100813414281128754070394562478474ld, 2023731312215cm40cm651583123d, 151822d
+主题 3: 160 个文档 - 73181od, 731813122525251782731731od, 81800d, 2023731731721400721od, 8112141450ld, 281g6330232223ld, 812473181ld, 3ld, 1953830731700607315103160401711060d, 20177311712old
+主题 4: 372 个文档 - 731ld, 73122ld, k396z1801218706813ld, 731117l, ld, 49813117243049811234d, 731108113126652826ld, 292031131769322158093111ld, 7271374350319728922613218422421924924843477345184407100813414281128754070394562478474d, 730ld
+主题 5: 1,694 个文档 - 7298130023120d, 731l, ld, 300292031131769346832215809ld, 72917301972981300231209121101193456789d, 303467120150200300508025729093006228d, 813132020ld, 73110810810015025070120150d, 7298130231209121101193456789d, 72981
+主题 6: 209 个文档 - 5729101002213729d, 202372917307298130023120d, ljackerjin, 2l, 72917307298147298177297308134678173081250600121956815612202002427d, 811110722000450ld, 81300ld, 2822239ld, ld, 88d
+主题 7: 6,704 个文档 - ld, 731l, 731ld, 730ld, 3111311214ld, 3111311214, 300292031131769346832215809ld, 72929203122236322343923435569063110111118201272137507307311998700d, 7319101177311453117ld, 2
 
 异常值统计:
-  异常值数量: 6,494
-  异常值比例: 43.3%
+  异常值数量: 4,890
+  异常值比例: 32.6%
 
 === 保存改进版结果 ===
 ✓ 创建输出目录: results/high_quality_results
 ✓ 主题建模结果已保存到: results/high_quality_results/topic_modeling_results_high_quality.csv
 ✓ 主题信息已保存到: results/high_quality_results/topic_info_high_quality.csv
 ✓ BERTopic模型已保存到: results/high_quality_results/bertopic_model_high_quality
+✓ 聚类结果已保存到: data/聚类结果.csv
+✓ 聚类结果2已保存到: data/聚类结果2.csv
 
 === 创建可视化图表 ===
 创建主题分布图...
-✓ 主题分布图已保存到: results/high_quality_results/visualizations/topic_distribution.png
+✓ 主题分布图已保存到: results/high_quality_results/visualizations/topic_distribution.png 和 data/image/topic_barchart_high_quality.png
 创建主题关键词热力图...
-✓ 主题关键词热力图已保存到: results/high_quality_results/visualizations/topic_keywords_heatmap.png
+✓ 主题关键词热力图已保存到: results/high_quality_results/visualizations/topic_keywords_heatmap.png 和 data/image/topic_keywords_heatmap_high_quality.png
 创建文档分布饼图...
-✓ 文档分布饼图已保存到: results/high_quality_results/visualizations/document_distribution.png
+✓ 文档分布饼图已保存到: results/high_quality_results/visualizations/document_distribution.png 和 data/image/topic_size_distribution_high_quality.png
 创建主题概率分布图...
-✓ 主题概率分布图已保存到: results/high_quality_results/visualizations/topic_probability_distribution.png
+✓ 主题概率分布图已保存到: results/high_quality_results/visualizations/topic_probability_distribution.png 和 data/image/topic_probability_distribution_high_quality.png
+创建文档分布UMAP降维散点图...
+未能生成UMAP降维散点图（缺少embedding列）
+保存BERTopic交互式可视化为PNG...
+✓ 交互式主题柱状图已保存: data/image/topic_barchart_high_quality.png
+✓ 交互式主题关键词热力图已保存: data/image/topic_keywords_heatmap_high_quality.png
+✓ 交互式主题层次聚类图已保存: data/image/topic_hierarchy_high_quality.png
+✓ 交互式主题相似度热力图已保存: data/image/topic_similarity_high_quality.png
+警告：时间戳数量(88612)与文本数量(15000)不一致，跳过topics_over_time图保存
 
 === 生成改进版分析报告 ===
 ✓ 改进版分析报告已保存到: results/high_quality_results/visualizations/improved_topic_analysis_report.txt
@@ -96,48 +593,44 @@
 
 数据概览:
 - 总文档数: 15,000
-- 有效主题数: 9
-- 异常值文档数: 6,494 (43.3%)
-- 平均主题概率: 0.393
+- 有效主题数: 8
+- 异常值文档数: 4,890 (32.6%)
+- 平均主题概率: 0.440
 - 主题概率范围: 0.001 - 1.000
 
 主题详情:
 
 主题 0: 0_8118111aaaaa73072918d_600ld_731108113126652826ld_812473181ld
 - 文档数: 522 (3.5%)
-- 关键词: 8118111aaaaa73072918d, 600ld, 731108113126652826ld, 812473181ld, 3l, 3ld, 13290546777d, 8128d, 72988111355143573008110133913ld, 73181old, 812210932666, 7313lvia, 81od, 81307312012ld, 28601823249862918960659316d
+- 关键词: 8118111aaaaa73072918d, 600ld, 731108113126652826ld, 812473181ld, 3l, 3ld, 13290546777d, 8128d, 73181old, 72988111355143573008110133913ld, 812210932666, 7313lvia, 81307312012ld, 81od, 28601823249862918960659316d
 
-主题 1: 1_73181od_81800d_731813122525251782731731od_2023731731721400721od
-- 文档数: 160 (1.1%)
-- 关键词: 73181od, 81800d, 731813122525251782731731od, 2023731731721400721od, 8112141450ld, 281g6330232223ld, 812473181ld, 3ld, 1953830731700607315103160401711060d, 20177311712old, 282d, 2210932666od, 1071, 1, 730d
-
-主题 2: 2_7312202ld_30l_281202300ld_199212731114912471od
+主题 1: 1_7312202ld_30l_281202300ld_199212731114912471od
 - 文档数: 283 (1.9%)
-- 关键词: 7312202ld, 30l, 281202300ld, 199212731114912471od, 812260ld, 199212731114912471d, 731ld, 81300ld, ld, 73181884303810615app2015lvnewsd, 731l, 73122ld, 7311149312151247151822199212200912ld, 1383172908811135514357300767868310288118811013391314622538731179726ld, 1383172908811135514357300767868310288118811013391314622538731179726o355113ld
+- 关键词: 7312202ld, 30l, 281202300ld, 199212731114912471od, 812260ld, 199212731114912471d, 731ld, ld, 81300ld, 73181884303810615app2015lvnewsd, 731l, 73122ld, 7311149312151247151822199212200912ld, 1383172908811135514357300767868310288118811013391314622538731179726ld, 1383172908811135514357300767868310288118811013391314622538731179726o355113ld
 
-主题 3: 3_ld_12_731108113126652826ld_8121110722000ld
-- 文档数: 216 (1.4%)
-- 关键词: ld, 12, 731108113126652826ld, 8121110722000ld, 81300ld, tm, 81903ld, 8130060081ld, 21d, 731lld, 7316124ld, 811110722000450ld, 20233202322023811od, 107viaod, 727811287540703945624d
+主题 2: 2_30l_81600731171006007318181731818113812381licd_731351822ld_81300ld
+- 文档数: 166 (1.1%)
+- 关键词: 30l, 81600731171006007318181731818113812381licd, 731351822ld, 81300ld, 281202300ld, 5, 7311149124711992122ld, 7271374350319728922613218422421924924843477345184407100813414281128754070394562478474ld, 2023731312215cm40cm651583123d, 151822d, 812260ld, 2l, 729, 500l, 30151822ld
 
-主题 4: 4_73122ld_731ld_k396z1801218706813ld_199212
-- 文档数: 355 (2.4%)
-- 关键词: 73122ld, 731ld, k396z1801218706813ld, 199212, 731117l, 49813117243049811234d, 731108113126652826ld, 292031131769322158093111ld, ld, 730labd, 731220ld, 1383172908811135514357300767868310288118811013391314622538731179726o355113ld, 731d, 11720237311177311453ld, 731917ld
+主题 3: 3_73181od_731813122525251782731731od_81800d_2023731731721400721od
+- 文档数: 160 (1.1%)
+- 关键词: 73181od, 731813122525251782731731od, 81800d, 2023731731721400721od, 8112141450ld, 281g6330232223ld, 812473181ld, 3ld, 1953830731700607315103160401711060d, 20177311712old, 282d, 2210932666od, 1071, 1, 730d
 
-主题 5: 5_5729101002213729d_202372917307298130023120d_72917307298147298177297308134678173081250600121956815612202002427d_2822239ld
-- 文档数: 176 (1.2%)
-- 关键词: 5729101002213729d, 202372917307298130023120d, 72917307298147298177297308134678173081250600121956815612202002427d, 2822239ld, 3111311214, 73110, ip, 72929203122236322343923435569063110111118201272137507307311998700viad, 7292ld, 107107, 81731884303810615d, 73133181190081426d, 816112274, 140731820764041o140ld, ld
+主题 4: 4_731ld_73122ld_k396z1801218706813ld_731117l
+- 文档数: 372 (2.5%)
+- 关键词: 731ld, 73122ld, k396z1801218706813ld, 731117l, ld, 49813117243049811234d, 731108113126652826ld, 292031131769322158093111ld, 7271374350319728922613218422421924924843477345184407100813414281128754070394562478474d, 730ld, 731220ld, 2920311317693221580931115000d, 731l, 1383172908811135514357300767868310288118811013391314622538731179726o355113ld, 731d
 
-主题 6: 6_7298130023120d_ld_300292031131769346832215809ld_731l
-- 文档数: 1,596 (10.6%)
-- 关键词: 7298130023120d, ld, 300292031131769346832215809ld, 731l, 303467120150200300508025729093006228d, 813132020ld, 7298130231209121101193456789d, 73110810810015025070120150d, 30ld, 72981, 7319101177311453117ld, 30107302918ld, 72929203122236322343923435569063110111118201272137507307311998700d, 114572981300831081130d, 972917301972981300231209121101193456789d
+主题 5: 5_7298130023120d_731l_ld_300292031131769346832215809ld
+- 文档数: 1,694 (11.3%)
+- 关键词: 7298130023120d, 731l, ld, 300292031131769346832215809ld, 72917301972981300231209121101193456789d, 303467120150200300508025729093006228d, 813132020ld, 73110810810015025070120150d, 7298130231209121101193456789d, 72981, 72929203122236322343923435569063110111118201272137507307311998700d, 19921220091220237311149312151247151822350015024d, 281202300ld, 30l, 7319101177311453117ld
 
-主题 7: 7_ld_3111311214ld_731ld_3111311214
-- 文档数: 1,841 (12.3%)
-- 关键词: ld, 3111311214ld, 731ld, 3111311214, 2, 730ld, 731l, ild, 730labd, 72929203122236322343923435569063110111118201272137507307311998700d, 70300144ld, 721, 30ld, 7319101177311453117ld, 40
+主题 6: 6_5729101002213729d_202372917307298130023120d_ljackerjin_2l
+- 文档数: 209 (1.4%)
+- 关键词: 5729101002213729d, 202372917307298130023120d, ljackerjin, 2l, 72917307298147298177297308134678173081250600121956815612202002427d, 811110722000450ld, 81300ld, 2822239ld, ld, 88d, 731917ld, 81600731171006007318181731818113812381licd, 72929203122236322343923435569063110111118201272137507307311998700d, 300292031131769346832215809ld, ip
 
-主题 8: 8_ld_731l_2023731312215cm40cm651583123d_731ld
-- 文档数: 3,357 (22.4%)
-- 关键词: ld, 731l, 2023731312215cm40cm651583123d, 731ld, 731917ld, 730ld, 300292031131769346832215809ld, 2370050ld, 30l, 2920311317693221580931115000d, 3111311214ld, 81300ld, 813132020ld, 72929203122236322343923435569063110111118201272137507307311998700d, 3111311214
+主题 7: 7_ld_731l_731ld_730ld
+- 文档数: 6,704 (44.7%)
+- 关键词: ld, 731l, 731ld, 730ld, 3111311214ld, 3111311214, 300292031131769346832215809ld, 72929203122236322343923435569063110111118201272137507307311998700d, 7319101177311453117ld, 2, 731917ld, 2023731312215cm40cm651583123d, 7314080ld, 30l, 30ld
 
 改进说明:
 - 强力文本清洗：移除所有英文单词、数字、方括号内容
@@ -153,7 +646,7 @@
 4. results/high_quality_results/visualizations/topic_probability_distribution.png - 主题概率分布图
 
 
-结束时间: 2025-06-29 18:52:59
+结束时间: 2025-07-03 22:50:45
 ============================================================
 改进版BERTopic主题建模完成！
 ============================================================
