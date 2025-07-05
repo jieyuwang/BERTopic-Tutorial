@@ -318,9 +318,15 @@ def extract_topic_keywords(texts, topics, top_n=20):
                         if word == original_word or (word in original_word and len(word) / len(original_word) > 0.8):
                             final_keywords.append((word, score))
                             break
-                
+                # 去重并保留顺序
+                seen = set()
+                unique_final_keywords = []
+                for word, score in final_keywords:
+                    if word not in seen:
+                        unique_final_keywords.append((word, score))
+                        seen.add(word)
                 # 取前top_n个
-                final_keywords = final_keywords[:top_n]
+                final_keywords = unique_final_keywords[:top_n]
             else:
                 final_keywords = filtered_keywords[:top_n]
             
