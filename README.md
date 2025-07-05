@@ -28,7 +28,7 @@
     - 比如运行 `embedding_sentence_transformer.ipynb`，会调用Sentencetransformers模型生成词向量
     - 把生成的词向量，复制到`data`目录，修改为`embedding_bbc.npy`等文件名，具体参考`data/`目录中的文件命名
     - 如果要使用autodl等线上GPU平台，则可以将`data/文本.txt`和`线上代码平台/`目录中的`embedding_xxx.ipynb`上传到线上平台，运行，生成Embedding文件并下载到本地
-
+    - 注意：[embedding_sentence_transformer.ipynb](weibo/embedding/embedding_sentence_transformer.ipynb)需要改包：pip install transformers==4.29.2  # 这是与 sentence-transformers 2.2.2 兼容的稳定版本
 1. **运行**：运行`main.ipynb`，生成聚类结果
 
 # 项目目录
@@ -42,3 +42,9 @@
 
 
 # [⭐点击这里，查看课程笔记⭐](./笔记/note.md)
+
+topic_model = BERTopic(
+    min_topic_size=2,  # 必须大于1
+    nr_topics="auto",
+    verbose=True
+)
