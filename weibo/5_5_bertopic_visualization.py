@@ -144,7 +144,9 @@ def main():
             if topic_weights[idx] > 0:
                 word = topic_model.words_[idx]
                 weight = float(topic_weights[idx])
-                topic_words.append((word, weight))
+                # 只保留1-3字的关键词
+                if 1 <= len(word) <= 3:
+                    topic_words.append((word, weight))
         
         # 确保topic_representations_的格式正确
         topic_model.topic_representations_[topic] = topic_words
@@ -178,16 +180,36 @@ def main():
         topic = row['Topic']
         keywords = row['Top_Keywords']
         if isinstance(keywords, str) and keywords.strip():
-            # 取第一个逗号前的分词，并去除空格和引号
-            label = keywords.split(',')[0].strip().replace("'", "").replace('"', '')
-            # 只保留两个字的词（如有多个，优先第一个两个字的，否则就用第一个）
-            if len(label) > 2:
-                for word in keywords.split(','):
-                    word = word.strip().replace("'", "").replace('"', '')
-                    if len(word) == 2:
-                        label = word
-                        break
-            topic2label[topic] = label
+            # 解析Top_Keywords列，提取第一个关键词
+            # 格式: "[('关键词', 分数), ('关键词', 分数), ...]"
+            try:
+                # 去除开头的 "[(" 和结尾的 ")]"
+                clean_keywords = keywords.strip()
+                if clean_keywords.startswith("[(") and clean_keywords.endswith(")]"):
+                    clean_keywords = clean_keywords[2:-2]  # 去除 "[(" 和 ")]"
+                
+                # 分割关键词对
+                keyword_pairs = clean_keywords.split("), (")
+                if keyword_pairs:
+                    # 取第一个关键词对
+                    first_pair = keyword_pairs[0]
+                    # 提取关键词（去除引号和空格）
+                    label = first_pair.split("',")[0].replace("'", "").replace('"', '').strip()
+                    
+                    # 如果第一个关键词太长，尝试找更短的（限制为3个字符以内）
+                    if len(label) > 3:
+                        for pair in keyword_pairs:
+                            word = pair.split("',")[0].replace("'", "").replace('"', '').strip()
+                            if 1 <= len(word) <= 3:
+                                label = word
+                                break
+                    
+                    topic2label[topic] = label
+                else:
+                    topic2label[topic] = f"主题{topic}"
+            except Exception as e:
+                print(f"解析主题{topic}关键词失败: {e}")
+                topic2label[topic] = f"主题{topic}"
         else:
             topic2label[topic] = f"主题{topic}"
 
@@ -208,7 +230,7 @@ def main():
     print("5. 生成可视化...")
     
     # 创建结果目录
-    os.makedirs("results/5_5", exist_ok=True)
+    os.makedirs("results/5_5_old_result", exist_ok=True)
     
     # 1. 主题关键词条形图 (对应main.ipynb Cell 12)
     print("生成主题关键词条形图...")
@@ -423,10 +445,11 @@ def main():
                     # 按权重排序并去重
                     keyword_dict = {}
                     for word, weight in all_keywords:
-                        if word not in keyword_dict:
-                            keyword_dict[word] = weight
-                        else:
-                            keyword_dict[word] += weight
+                        if 1 <= len(word) <= 3:  # 只保留1-3字
+                            if word not in keyword_dict:
+                                keyword_dict[word] = weight
+                            else:
+                                keyword_dict[word] += weight
                     
                     # 取前10个关键词
                     sorted_keywords = sorted(keyword_dict.items(), key=lambda x: x[1], reverse=True)[:10]
@@ -438,17 +461,18 @@ def main():
                         'Top_Keywords': keywords_str
                     })
                 
-                # 创建合并后的主题标签
+                # 创建合并后的主题标签（限制为3个字符以内）
                 merged_topic2label = {}
                 for info in merged_topic_info:
                     topic = info['Topic']
                     keywords = info['Top_Keywords']
                     if isinstance(keywords, str) and keywords.strip():
                         label = keywords.split(',')[0].strip().replace("'", "").replace('"', '')
-                        if len(label) > 2:
+                        # 如果第一个关键词太长，尝试找更短的（限制为3个字符以内）
+                        if len(label) > 3:
                             for word in keywords.split(','):
                                 word = word.strip().replace("'", "").replace('"', '')
-                                if len(word) == 2:
+                                if 1 <= len(word) <= 3:
                                     label = word
                                     break
                         merged_topic2label[topic] = label
