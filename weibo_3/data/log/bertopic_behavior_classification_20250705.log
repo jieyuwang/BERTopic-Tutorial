@@ -1,0 +1,689 @@
+2025-07-05 16:01:34 - bertopic_behavior_classification - INFO - 构建行为关键词词典...
+2025-07-05 16:01:34 - bertopic_behavior_classification - INFO - 行为关键词词典构建完成，包含 79 个关键词
+2025-07-05 16:01:34 - bertopic_behavior_classification - INFO - 开始运行BERTopic行为分类完整流程...
+2025-07-05 16:01:34 - bertopic_behavior_classification - INFO - 加载数据: data/clean/processed_data.csv
+2025-07-05 16:01:35 - bertopic_behavior_classification - INFO - 数据加载成功，共 89027 条记录
+2025-07-05 16:01:35 - bertopic_behavior_classification - INFO - 数据预处理...
+2025-07-05 16:01:36 - bertopic_behavior_classification - INFO - 开始训练BERTopic模型...
+2025-07-05 16:01:40 - bertopic_behavior_classification - INFO - 使用嵌入模型: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-05 16:01:40 - bertopic_behavior_classification - INFO - 生成文本嵌入...
+2025-07-05 18:31:46 - bertopic_behavior_classification - INFO - 构建行为关键词词典...
+2025-07-05 18:31:46 - bertopic_behavior_classification - INFO - 行为关键词词典构建完成，包含 79 个关键词
+2025-07-05 18:31:46 - bertopic_behavior_classification - INFO - 开始运行BERTopic行为分类完整流程...
+2025-07-05 18:31:46 - bertopic_behavior_classification - INFO - 加载数据: data/clean/processed_data.csv
+2025-07-05 18:31:47 - bertopic_behavior_classification - INFO - 数据量过大(89027)，只取前1000条进行测试...
+2025-07-05 18:31:47 - bertopic_behavior_classification - INFO - 数据加载成功，共 1000 条记录
+2025-07-05 18:31:47 - bertopic_behavior_classification - INFO - 数据预处理...
+2025-07-05 18:31:48 - bertopic_behavior_classification - INFO - 开始训练BERTopic模型...
+2025-07-05 18:31:51 - bertopic_behavior_classification - INFO - 使用嵌入模型: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-05 18:31:51 - bertopic_behavior_classification - INFO - 生成文本嵌入...
+2025-07-05 18:32:40 - bertopic_behavior_classification - INFO - BERTopic模型训练完成，发现 12 个主题
+2025-07-05 18:32:40 - bertopic_behavior_classification - INFO - 开始主题到行为的映射...
+2025-07-05 18:34:09 - bertopic_behavior_classification - INFO - 构建行为关键词词典...
+2025-07-05 18:34:09 - bertopic_behavior_classification - INFO - 行为关键词词典构建完成，包含 79 个关键词
+2025-07-05 18:34:09 - bertopic_behavior_classification - INFO - 开始运行BERTopic行为分类完整流程...
+2025-07-05 18:34:09 - bertopic_behavior_classification - INFO - 加载数据: data/clean/processed_data.csv
+2025-07-05 18:34:10 - bertopic_behavior_classification - INFO - 数据量过大(89027)，只取前1000条进行测试...
+2025-07-05 18:34:10 - bertopic_behavior_classification - INFO - 数据加载成功，共 1000 条记录
+2025-07-05 18:34:10 - bertopic_behavior_classification - INFO - 数据预处理...
+2025-07-05 18:34:10 - bertopic_behavior_classification - INFO - 开始训练BERTopic模型...
+2025-07-05 18:34:12 - bertopic_behavior_classification - INFO - 使用嵌入模型: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-05 18:34:12 - bertopic_behavior_classification - INFO - 生成文本嵌入...
+2025-07-05 18:35:00 - bertopic_behavior_classification - INFO - BERTopic模型训练完成，发现 20 个主题
+2025-07-05 18:35:00 - bertopic_behavior_classification - INFO - 开始主题到行为的映射...
+2025-07-05 18:35:00 - bertopic_behavior_classification - INFO - 主题行为映射完成，共映射 19 个主题
+2025-07-05 18:35:00 - bertopic_behavior_classification - INFO - 创建行为标签...
+2025-07-05 18:35:00 - bertopic_behavior_classification - INFO - 训练行为分类器...
+2025-07-05 18:35:00 - bertopic_behavior_classification - INFO - 分类器训练完成
+2025-07-05 18:35:00 - bertopic_behavior_classification - INFO - 精确率: 0.8882
+2025-07-05 18:35:00 - bertopic_behavior_classification - INFO - 召回率: 0.8800
+2025-07-05 18:35:00 - bertopic_behavior_classification - INFO - F1分数: 0.8619
+2025-07-05 18:35:48 - bertopic_behavior_classification - INFO - 构建行为关键词词典...
+2025-07-05 18:35:48 - bertopic_behavior_classification - INFO - 行为关键词词典构建完成，包含 79 个关键词
+2025-07-05 18:35:48 - bertopic_behavior_classification - INFO - 开始运行BERTopic行为分类完整流程...
+2025-07-05 18:35:48 - bertopic_behavior_classification - INFO - 加载数据: data/clean/processed_data.csv
+2025-07-05 18:35:49 - bertopic_behavior_classification - INFO - 数据量过大(89027)，只取前1000条进行测试...
+2025-07-05 18:35:49 - bertopic_behavior_classification - INFO - 数据加载成功，共 1000 条记录
+2025-07-05 18:35:49 - bertopic_behavior_classification - INFO - 数据预处理...
+2025-07-05 18:35:49 - bertopic_behavior_classification - INFO - 开始训练BERTopic模型...
+2025-07-05 18:35:51 - bertopic_behavior_classification - INFO - 使用嵌入模型: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-05 18:35:51 - bertopic_behavior_classification - INFO - 生成文本嵌入...
+2025-07-05 18:36:39 - bertopic_behavior_classification - INFO - BERTopic模型训练完成，发现 37 个主题
+2025-07-05 18:36:39 - bertopic_behavior_classification - INFO - 开始主题到行为的映射...
+2025-07-05 18:36:39 - bertopic_behavior_classification - INFO - 主题行为映射完成，共映射 36 个主题
+2025-07-05 18:36:39 - bertopic_behavior_classification - INFO - 创建行为标签...
+2025-07-05 18:36:39 - bertopic_behavior_classification - INFO - 训练行为分类器...
+2025-07-05 18:36:40 - bertopic_behavior_classification - INFO - 分类器训练完成
+2025-07-05 18:36:40 - bertopic_behavior_classification - INFO - 精确率: 0.8788
+2025-07-05 18:36:40 - bertopic_behavior_classification - INFO - 召回率: 0.8700
+2025-07-05 18:36:40 - bertopic_behavior_classification - INFO - F1分数: 0.8467
+2025-07-05 18:37:30 - bertopic_behavior_classification - INFO - 构建行为关键词词典...
+2025-07-05 18:37:30 - bertopic_behavior_classification - INFO - 行为关键词词典构建完成，包含 79 个关键词
+2025-07-05 18:37:30 - bertopic_behavior_classification - INFO - 开始运行BERTopic行为分类完整流程...
+2025-07-05 18:37:30 - bertopic_behavior_classification - INFO - 加载数据: data/clean/processed_data.csv
+2025-07-05 18:37:31 - bertopic_behavior_classification - INFO - 数据量过大(89027)，只取前1000条进行测试...
+2025-07-05 18:37:31 - bertopic_behavior_classification - INFO - 数据加载成功，共 1000 条记录
+2025-07-05 18:37:31 - bertopic_behavior_classification - INFO - 数据预处理...
+2025-07-05 18:37:31 - bertopic_behavior_classification - INFO - 开始训练BERTopic模型...
+2025-07-05 18:37:35 - bertopic_behavior_classification - INFO - 使用嵌入模型: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-05 18:37:35 - bertopic_behavior_classification - INFO - 生成文本嵌入...
+2025-07-05 18:39:25 - bertopic_behavior_classification - INFO - BERTopic模型训练完成，发现 12 个主题
+2025-07-05 18:39:25 - bertopic_behavior_classification - INFO - 开始主题到行为的映射...
+2025-07-05 18:39:25 - bertopic_behavior_classification - INFO - 主题行为映射完成，共映射 11 个主题
+2025-07-05 18:39:25 - bertopic_behavior_classification - INFO - 创建行为标签...
+2025-07-05 18:39:25 - bertopic_behavior_classification - INFO - 训练行为分类器...
+2025-07-05 18:39:26 - bertopic_behavior_classification - INFO - 分类器训练完成
+2025-07-05 18:39:26 - bertopic_behavior_classification - INFO - 精确率: 0.9087
+2025-07-05 18:39:26 - bertopic_behavior_classification - INFO - 召回率: 0.9050
+2025-07-05 18:39:26 - bertopic_behavior_classification - INFO - F1分数: 0.8921
+2025-07-05 18:39:26 - bertopic_behavior_classification - INFO - 分类报告:
+              precision    recall  f1-score   support
+
+      信息搜索行为       0.94      0.49      0.64        35
+      紧急求助行为       0.90      0.99      0.95       165
+
+    accuracy                           0.91       200
+   macro avg       0.92      0.74      0.79       200
+weighted avg       0.91      0.91      0.89       200
+
+2025-07-05 18:39:26 - bertopic_behavior_classification - INFO - 分析行为分布...
+2025-07-05 18:40:35 - bertopic_behavior_classification - INFO - 生成行为分析报告...
+2025-07-05 18:40:35 - bertopic_behavior_classification - INFO - 行为分析报告生成完成
+2025-07-05 18:40:35 - bertopic_behavior_classification - INFO - BERTopic行为分类完整流程执行完成
+2025-07-05 18:40:35 - bertopic_behavior_classification - INFO - BERTopic行为分类成功完成！
+2025-07-05 18:51:53 - bertopic_behavior_classification - INFO - 构建行为关键词词典...
+2025-07-05 18:51:53 - bertopic_behavior_classification - INFO - 行为关键词词典构建完成，包含 125 个关键词
+2025-07-05 18:51:53 - bertopic_behavior_classification - INFO - 加载数据: data/weibo_data_processed.csv
+2025-07-05 18:51:53 - bertopic_behavior_classification - ERROR - 数据加载失败: [Errno 2] No such file or directory: 'data/weibo_data_processed.csv'
+2025-07-05 18:53:29 - bertopic_behavior_classification - INFO - 构建行为关键词词典...
+2025-07-05 18:53:29 - bertopic_behavior_classification - INFO - 行为关键词词典构建完成，包含 125 个关键词
+2025-07-05 18:53:29 - bertopic_behavior_classification - INFO - 加载数据: data/clean/processed_data.csv
+2025-07-05 18:53:30 - bertopic_behavior_classification - INFO - 数据量过大(89027)，只取前500条进行测试...
+2025-07-05 18:53:30 - bertopic_behavior_classification - INFO - 数据加载成功，共 500 条记录
+2025-07-05 18:53:30 - bertopic_behavior_classification - INFO - 开始训练BERTopic模型...
+2025-07-05 18:53:33 - bertopic_behavior_classification - INFO - 使用嵌入模型: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-05 18:53:33 - bertopic_behavior_classification - INFO - 生成文本嵌入...
+2025-07-05 18:54:10 - bertopic_behavior_classification - INFO - BERTopic模型训练完成，发现 13 个主题
+2025-07-05 18:54:10 - bertopic_behavior_classification - INFO - 开始主题到行为的映射...
+2025-07-05 18:54:10 - bertopic_behavior_classification - INFO - Topic 0: 信息搜索行为 (得分: {'紧急求助行为': 13, '信息搜索行为': 14, '互助支援行为': 5})
+2025-07-05 18:54:10 - bertopic_behavior_classification - INFO - Topic 1: 紧急求助行为 (得分: {'紧急求助行为': 357, '信息搜索行为': 54, '互助支援行为': 168.5})
+2025-07-05 18:54:10 - bertopic_behavior_classification - INFO - Topic 2: 紧急求助行为 (得分: {'紧急求助行为': 141, '信息搜索行为': 30, '互助支援行为': 49.5})
+2025-07-05 18:54:10 - bertopic_behavior_classification - INFO - Topic 3: 紧急求助行为 (得分: {'紧急求助行为': 190, '信息搜索行为': 25, '互助支援行为': 71.0})
+2025-07-05 18:54:10 - bertopic_behavior_classification - INFO - Topic 4: 紧急求助行为 (得分: {'紧急求助行为': 312, '信息搜索行为': 67, '互助支援行为': 303.0})
+2025-07-05 18:54:10 - bertopic_behavior_classification - INFO - Topic 5: 紧急求助行为 (得分: {'紧急求助行为': 151, '信息搜索行为': 74, '互助支援行为': 6.5})
+2025-07-05 18:54:10 - bertopic_behavior_classification - INFO - Topic 6: 紧急求助行为 (得分: {'紧急求助行为': 75, '信息搜索行为': 7, '互助支援行为': 27.5})
+2025-07-05 18:54:10 - bertopic_behavior_classification - INFO - Topic 7: 紧急求助行为 (得分: {'紧急求助行为': 89, '信息搜索行为': 0, '互助支援行为': 43})
+2025-07-05 18:54:10 - bertopic_behavior_classification - INFO - Topic 8: 紧急求助行为 (得分: {'紧急求助行为': 96, '信息搜索行为': 12, '互助支援行为': 27.5})
+2025-07-05 18:54:10 - bertopic_behavior_classification - INFO - Topic 9: 紧急求助行为 (得分: {'紧急求助行为': 138, '信息搜索行为': 28, '互助支援行为': 44.0})
+2025-07-05 18:54:10 - bertopic_behavior_classification - INFO - Topic 10: 紧急求助行为 (得分: {'紧急求助行为': 84, '信息搜索行为': 3, '互助支援行为': 29.5})
+2025-07-05 18:54:10 - bertopic_behavior_classification - INFO - Topic 11: 紧急求助行为 (得分: {'紧急求助行为': 74, '信息搜索行为': 19, '互助支援行为': 18.0})
+2025-07-05 18:54:10 - bertopic_behavior_classification - INFO - 主题行为映射完成，共映射 12 个主题
+2025-07-05 18:54:10 - bertopic_behavior_classification - INFO - 行为分布: {'信息搜索行为': 107, '紧急求助行为': 334}
+2025-07-05 18:54:10 - bertopic_behavior_classification - INFO - 创建行为标签...
+2025-07-05 18:54:10 - bertopic_behavior_classification - INFO - 训练行为分类器...
+2025-07-05 18:54:11 - bertopic_behavior_classification - INFO - 分类器训练完成
+2025-07-05 18:54:11 - bertopic_behavior_classification - INFO - 精确率: 0.8050
+2025-07-05 18:54:11 - bertopic_behavior_classification - INFO - 召回率: 0.7700
+2025-07-05 18:54:11 - bertopic_behavior_classification - INFO - F1分数: 0.7319
+2025-07-05 18:54:11 - bertopic_behavior_classification - INFO - 分类报告:
+              precision    recall  f1-score   support
+
+      信息搜索行为       0.92      0.33      0.49        33
+      紧急求助行为       0.75      0.99      0.85        67
+
+    accuracy                           0.77       100
+   macro avg       0.83      0.66      0.67       100
+weighted avg       0.81      0.77      0.73       100
+
+2025-07-05 18:54:11 - bertopic_behavior_classification - INFO - 分析行为分布...
+2025-07-05 18:56:16 - bertopic_behavior_classification - INFO - 构建行为关键词词典...
+2025-07-05 18:56:16 - bertopic_behavior_classification - INFO - 行为关键词词典构建完成，包含 125 个关键词
+2025-07-05 18:56:16 - bertopic_behavior_classification - INFO - 加载数据: data/clean/processed_data.csv
+2025-07-05 18:56:17 - bertopic_behavior_classification - INFO - 数据量过大(89027)，只取前500条进行测试...
+2025-07-05 18:56:17 - bertopic_behavior_classification - INFO - 数据加载成功，共 500 条记录
+2025-07-05 18:56:17 - bertopic_behavior_classification - INFO - 开始训练BERTopic模型...
+2025-07-05 18:56:20 - bertopic_behavior_classification - INFO - 使用嵌入模型: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-05 18:56:20 - bertopic_behavior_classification - INFO - 生成文本嵌入...
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - BERTopic模型训练完成，发现 14 个主题
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - 开始主题到行为的映射...
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - Topic 0: 紧急求助行为 (得分: {'紧急求助行为': 17, '信息搜索行为': 16, '互助支援行为': 10.0})
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - Topic 1: 紧急求助行为 (得分: {'紧急求助行为': 358, '信息搜索行为': 50, '互助支援行为': 173.5})
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - Topic 2: 紧急求助行为 (得分: {'紧急求助行为': 146, '信息搜索行为': 31, '互助支援行为': 47.0})
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - Topic 3: 互助支援行为 (得分: {'紧急求助行为': 312, '信息搜索行为': 67, '互助支援行为': 303.0})
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - Topic 4: 紧急求助行为 (得分: {'紧急求助行为': 155, '信息搜索行为': 74, '互助支援行为': 7.5})
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - Topic 5: 紧急求助行为 (得分: {'紧急求助行为': 75, '信息搜索行为': 7, '互助支援行为': 27.5})
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - Topic 6: 紧急求助行为 (得分: {'紧急求助行为': 93, '信息搜索行为': 0, '互助支援行为': 44})
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - Topic 7: 紧急求助行为 (得分: {'紧急求助行为': 126, '信息搜索行为': 25, '互助支援行为': 49.5})
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - Topic 8: 紧急求助行为 (得分: {'紧急求助行为': 96, '信息搜索行为': 12, '互助支援行为': 27.5})
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - Topic 9: 紧急求助行为 (得分: {'紧急求助行为': 138, '信息搜索行为': 28, '互助支援行为': 44.0})
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - Topic 10: 紧急求助行为 (得分: {'紧急求助行为': 84, '信息搜索行为': 3, '互助支援行为': 29.5})
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - Topic 11: 紧急求助行为 (得分: {'紧急求助行为': 67, '信息搜索行为': 19, '互助支援行为': 16.0})
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - Topic 12: 紧急求助行为 (得分: {'紧急求助行为': 56, '信息搜索行为': 0, '互助支援行为': 19.5})
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - 主题行为映射完成，共映射 13 个主题
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - 行为分布: {'紧急求助行为': 411, '互助支援行为': 31}
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - 创建行为标签...
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - 训练行为分类器...
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - 分类器训练完成
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - 精确率: 0.8666
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - 召回率: 0.8700
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - F1分数: 0.8515
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - 分类报告:
+              precision    recall  f1-score   support
+
+      互助支援行为       1.00      0.33      0.50         6
+      信息搜索行为       0.71      0.42      0.53        12
+      紧急求助行为       0.88      0.98      0.92        82
+
+    accuracy                           0.87       100
+   macro avg       0.86      0.58      0.65       100
+weighted avg       0.87      0.87      0.85       100
+
+2025-07-05 18:56:54 - bertopic_behavior_classification - INFO - 分析行为分布...
+2025-07-05 18:57:22 - bertopic_behavior_classification - INFO - 生成行为分析报告...
+2025-07-05 18:57:23 - bertopic_behavior_classification - INFO - 行为分析报告生成完成
+2025-07-05 19:00:02 - bertopic_behavior_classification - INFO - 构建行为关键词词典...
+2025-07-05 19:00:02 - bertopic_behavior_classification - INFO - 行为关键词词典构建完成，包含 125 个关键词
+2025-07-05 19:00:02 - bertopic_behavior_classification - INFO - 开始运行BERTopic行为分类完整流程...
+2025-07-05 19:00:02 - bertopic_behavior_classification - INFO - 加载数据: data/clean/processed_data.csv
+2025-07-05 19:00:03 - bertopic_behavior_classification - INFO - 数据量过大(89027)，只取前1000条进行测试...
+2025-07-05 19:00:03 - bertopic_behavior_classification - INFO - 数据加载成功，共 1000 条记录
+2025-07-05 19:00:03 - bertopic_behavior_classification - INFO - 数据预处理...
+2025-07-05 19:00:03 - bertopic_behavior_classification - INFO - 开始训练BERTopic模型...
+2025-07-05 19:00:08 - bertopic_behavior_classification - INFO - 使用嵌入模型: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-05 19:00:08 - bertopic_behavior_classification - INFO - 生成文本嵌入...
+2025-07-05 19:03:14 - bertopic_behavior_classification - INFO - BERTopic模型训练完成，发现 12 个主题
+2025-07-05 19:03:14 - bertopic_behavior_classification - INFO - 开始主题到行为的映射...
+2025-07-05 19:03:14 - bertopic_behavior_classification - INFO - Topic 0: 互助支援行为 (得分: {'紧急求助行为': 3512, '信息搜索行为': 809, '互助支援行为': 1889.5})
+2025-07-05 19:03:14 - bertopic_behavior_classification - INFO - Topic 1: 紧急求助行为 (得分: {'紧急求助行为': 198, '信息搜索行为': 13, '互助支援行为': 98.0})
+2025-07-05 19:03:14 - bertopic_behavior_classification - INFO - Topic 2: 信息搜索行为 (得分: {'紧急求助行为': 1, '信息搜索行为': 7, '互助支援行为': 1})
+2025-07-05 19:03:14 - bertopic_behavior_classification - INFO - Topic 3: 紧急求助行为 (得分: {'紧急求助行为': 12, '信息搜索行为': 4, '互助支援行为': 1})
+2025-07-05 19:03:14 - bertopic_behavior_classification - INFO - Topic 4: 信息搜索行为 (得分: {'紧急求助行为': 3, '信息搜索行为': 5, '互助支援行为': 2})
+2025-07-05 19:03:14 - bertopic_behavior_classification - INFO - Topic 5: 紧急求助行为 (得分: {'紧急求助行为': 106, '信息搜索行为': 14, '互助支援行为': 23.0})
+2025-07-05 19:03:14 - bertopic_behavior_classification - INFO - Topic 6: 紧急求助行为 (得分: {'紧急求助行为': 133, '信息搜索行为': 5, '互助支援行为': 38.5})
+2025-07-05 19:03:14 - bertopic_behavior_classification - INFO - Topic 7: 信息搜索行为 (得分: {'紧急求助行为': 0, '信息搜索行为': 2, '互助支援行为': 0})
+2025-07-05 19:03:14 - bertopic_behavior_classification - INFO - Topic 8: 紧急求助行为 (得分: {'紧急求助行为': 60, '信息搜索行为': 43, '互助支援行为': 5.0})
+2025-07-05 19:03:14 - bertopic_behavior_classification - INFO - Topic 9: 紧急求助行为 (得分: {'紧急求助行为': 40, '信息搜索行为': 18, '互助支援行为': 9})
+2025-07-05 19:03:14 - bertopic_behavior_classification - INFO - Topic 10: 紧急求助行为 (得分: {'紧急求助行为': 58, '信息搜索行为': 34, '互助支援行为': 11})
+2025-07-05 19:03:14 - bertopic_behavior_classification - INFO - 主题行为映射完成，共映射 11 个主题
+2025-07-05 19:03:14 - bertopic_behavior_classification - INFO - 行为分布: {'互助支援行为': 651, '紧急求助行为': 150, '信息搜索行为': 80}
+2025-07-05 19:03:14 - bertopic_behavior_classification - INFO - 创建行为标签...
+2025-07-05 19:03:14 - bertopic_behavior_classification - INFO - 训练行为分类器...
+2025-07-05 19:03:15 - bertopic_behavior_classification - INFO - 分类器训练完成
+2025-07-05 19:03:15 - bertopic_behavior_classification - INFO - 精确率: 0.8222
+2025-07-05 19:03:15 - bertopic_behavior_classification - INFO - 召回率: 0.7850
+2025-07-05 19:03:15 - bertopic_behavior_classification - INFO - F1分数: 0.7481
+2025-07-05 19:03:15 - bertopic_behavior_classification - INFO - 分类报告:
+              precision    recall  f1-score   support
+
+      互助支援行为       0.75      0.99      0.86       130
+      信息搜索行为       0.91      0.25      0.39        40
+      紧急求助行为       1.00      0.60      0.75        30
+
+    accuracy                           0.79       200
+   macro avg       0.89      0.61      0.67       200
+weighted avg       0.82      0.79      0.75       200
+
+2025-07-05 19:03:15 - bertopic_behavior_classification - INFO - 分析行为分布...
+2025-07-05 19:03:30 - bertopic_behavior_classification - INFO - 生成行为分析报告...
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - 行为分析报告生成完成
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - 
+=== 详细行为分析 ===
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - 紧急求助行为: 150 条 (15.0%)
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - 信息搜索行为: 199 条 (19.9%)
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - 互助支援行为: 651 条 (65.1%)
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - 
+=== 主题-行为映射分析 ===
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - Topic 0: 互助支援行为 (文档数: 651)
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 3512, '信息搜索行为': 809, '互助支援行为': 1889.5}
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - Topic 1: 紧急求助行为 (文档数: 35)
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 198, '信息搜索行为': 13, '互助支援行为': 98.0}
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - Topic 2: 信息搜索行为 (文档数: 34)
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 1, '信息搜索行为': 7, '互助支援行为': 1}
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - Topic 3: 紧急求助行为 (文档数: 31)
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 12, '信息搜索行为': 4, '互助支援行为': 1}
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - Topic 4: 信息搜索行为 (文档数: 29)
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 3, '信息搜索行为': 5, '互助支援行为': 2}
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - Topic 5: 紧急求助行为 (文档数: 25)
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 106, '信息搜索行为': 14, '互助支援行为': 23.0}
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - Topic 6: 紧急求助行为 (文档数: 19)
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 133, '信息搜索行为': 5, '互助支援行为': 38.5}
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - Topic 7: 信息搜索行为 (文档数: 17)
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 0, '信息搜索行为': 2, '互助支援行为': 0}
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - Topic 8: 紧急求助行为 (文档数: 15)
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 60, '信息搜索行为': 43, '互助支援行为': 5.0}
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - Topic 9: 紧急求助行为 (文档数: 13)
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 40, '信息搜索行为': 18, '互助支援行为': 9}
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - Topic 10: 紧急求助行为 (文档数: 12)
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 58, '信息搜索行为': 34, '互助支援行为': 11}
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - 
+✅ 成功识别到 651 条互助支援行为
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - 
+互助支援行为示例:
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - 示例 1: 国家防总提升防汛防台风应急响应至三级今年第5号台风杜苏芮逐渐向闽粤沿海靠近记者26日从应急管理部获悉国家防总当日将防汛防台风应急响应提升至三级派出4个工作组赴浙江福建广东江西协助指导防汛防台风工作国家...
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - 示例 2: 遥遥想起两年前的这个时候大约我在去往北京的高铁上途径河南时因为害怕暴雨的余波将火车冲垮而彻夜难眠回程时经过被洪水毁掉的庄稼农田车厢安静得令人窒息...
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - 示例 3: 今日16时起河北启动洪水防御级应急响应按照河北省水利厅水旱灾害防御应急响应工作规程河北省水利厅决定于今日16时针对全省水利系统启动洪水防御级应急响应据预测今年第5号台风杜苏芮将于7月28日在福建广东附...
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - 
+详细分析完成！
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - BERTopic行为分类完整流程执行完成
+2025-07-05 19:03:32 - bertopic_behavior_classification - INFO - BERTopic行为分类成功完成！
+2025-07-05 19:13:46 - bertopic_behavior_classification - INFO - 构建行为关键词词典...
+2025-07-05 19:13:46 - bertopic_behavior_classification - INFO - 行为关键词词典构建完成，包含 125 个关键词
+2025-07-05 19:13:46 - bertopic_behavior_classification - INFO - 开始运行BERTopic行为分类完整流程...
+2025-07-05 19:13:46 - bertopic_behavior_classification - INFO - 加载数据: data/clean/processed_data.csv
+2025-07-05 19:13:46 - bertopic_behavior_classification - INFO - 数据量过大(89027)，只取前1000条进行测试...
+2025-07-05 19:13:46 - bertopic_behavior_classification - INFO - 数据加载成功，共 1000 条记录
+2025-07-05 19:13:46 - bertopic_behavior_classification - INFO - 数据预处理...
+2025-07-05 19:13:46 - bertopic_behavior_classification - INFO - 开始训练BERTopic模型...
+2025-07-05 19:13:49 - bertopic_behavior_classification - INFO - 使用嵌入模型: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-05 19:13:49 - bertopic_behavior_classification - INFO - 生成文本嵌入...
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - BERTopic模型训练完成，发现 18 个主题
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - 开始主题到行为的映射...
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - Topic 0: 互助支援行为 (得分: {'紧急求助行为': 2522, '信息搜索行为': 591, '互助支援行为': 1468.5})
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - Topic 1: 互助支援行为 (得分: {'紧急求助行为': 312, '信息搜索行为': 62, '互助支援行为': 199.5})
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - Topic 2: 紧急求助行为 (得分: {'紧急求助行为': 174, '信息搜索行为': 60, '互助支援行为': 80.5})
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - Topic 3: 紧急求助行为 (得分: {'紧急求助行为': 221, '信息搜索行为': 24, '互助支援行为': 108.5})
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - Topic 4: 紧急求助行为 (得分: {'紧急求助行为': 284, '信息搜索行为': 72, '互助支援行为': 78.0})
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - Topic 5: 紧急求助行为 (得分: {'紧急求助行为': 14, '信息搜索行为': 4, '互助支援行为': 4})
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - Topic 6: 信息搜索行为 (得分: {'紧急求助行为': 1, '信息搜索行为': 5, '互助支援行为': 1})
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - Topic 7: 信息搜索行为 (得分: {'紧急求助行为': 3, '信息搜索行为': 6, '互助支援行为': 2})
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - Topic 8: 紧急求助行为 (得分: {'紧急求助行为': 107, '信息搜索行为': 35, '互助支援行为': 3.5})
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - Topic 9: 紧急求助行为 (得分: {'紧急求助行为': 78, '信息搜索行为': 7, '互助支援行为': 28.5})
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - Topic 10: 紧急求助行为 (得分: {'紧急求助行为': 76, '信息搜索行为': 4, '互助支援行为': 23.0})
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - Topic 11: 紧急求助行为 (得分: {'紧急求助行为': 133, '信息搜索行为': 5, '互助支援行为': 38.5})
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - Topic 12: 互助支援行为 (得分: {'紧急求助行为': 136, '信息搜索行为': 51, '互助支援行为': 95.5})
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - Topic 13: 信息搜索行为 (得分: {'紧急求助行为': 0, '信息搜索行为': 2, '互助支援行为': 0})
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - Topic 14: 紧急求助行为 (得分: {'紧急求助行为': 60, '信息搜索行为': 43, '互助支援行为': 5.0})
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - Topic 15: 紧急求助行为 (得分: {'紧急求助行为': 40, '信息搜索行为': 18, '互助支援行为': 9})
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - Topic 16: 紧急求助行为 (得分: {'紧急求助行为': 58, '信息搜索行为': 34, '互助支援行为': 11})
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - 主题行为映射完成，共映射 17 个主题
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - 行为分布: {'互助支援行为': 502, '紧急求助行为': 315, '信息搜索行为': 79}
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - 创建行为标签...
+2025-07-05 19:14:36 - bertopic_behavior_classification - INFO - 训练行为分类器...
+2025-07-05 19:14:37 - bertopic_behavior_classification - INFO - 分类器训练完成
+2025-07-05 19:14:37 - bertopic_behavior_classification - INFO - 精确率: 0.7471
+2025-07-05 19:14:37 - bertopic_behavior_classification - INFO - 召回率: 0.6600
+2025-07-05 19:14:37 - bertopic_behavior_classification - INFO - F1分数: 0.6095
+2025-07-05 19:14:37 - bertopic_behavior_classification - INFO - 分类报告:
+              precision    recall  f1-score   support
+
+      互助支援行为       0.60      0.99      0.75       100
+      信息搜索行为       0.71      0.14      0.23        37
+      紧急求助行为       1.00      0.44      0.62        63
+
+    accuracy                           0.66       200
+   macro avg       0.77      0.52      0.53       200
+weighted avg       0.75      0.66      0.61       200
+
+2025-07-05 19:14:37 - bertopic_behavior_classification - INFO - 分析行为分布...
+2025-07-05 19:14:40 - bertopic_behavior_classification - INFO - 生成行为分析报告...
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - 行为分析报告生成完成
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - 
+=== 详细行为分析 ===
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - 紧急求助行为: 315 条 (31.5%)
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - 信息搜索行为: 183 条 (18.3%)
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - 互助支援行为: 502 条 (50.2%)
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - 
+=== 主题-行为映射分析 ===
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - Topic 0: 互助支援行为 (文档数: 416)
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 2522, '信息搜索行为': 591, '互助支援行为': 1468.5}
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - Topic 1: 互助支援行为 (文档数: 69)
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 312, '信息搜索行为': 62, '互助支援行为': 199.5}
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - Topic 2: 紧急求助行为 (文档数: 53)
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 174, '信息搜索行为': 60, '互助支援行为': 80.5}
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - Topic 3: 紧急求助行为 (文档数: 48)
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 221, '信息搜索行为': 24, '互助支援行为': 108.5}
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - Topic 4: 紧急求助行为 (文档数: 47)
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 284, '信息搜索行为': 72, '互助支援行为': 78.0}
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - Topic 5: 紧急求助行为 (文档数: 37)
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 14, '信息搜索行为': 4, '互助支援行为': 4}
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - Topic 6: 信息搜索行为 (文档数: 32)
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 1, '信息搜索行为': 5, '互助支援行为': 1}
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - Topic 7: 信息搜索行为 (文档数: 30)
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 3, '信息搜索行为': 6, '互助支援行为': 2}
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - Topic 8: 紧急求助行为 (文档数: 26)
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 107, '信息搜索行为': 35, '互助支援行为': 3.5}
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - Topic 9: 紧急求助行为 (文档数: 25)
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 78, '信息搜索行为': 7, '互助支援行为': 28.5}
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - Topic 10: 紧急求助行为 (文档数: 20)
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 76, '信息搜索行为': 4, '互助支援行为': 23.0}
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - Topic 11: 紧急求助行为 (文档数: 19)
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 133, '信息搜索行为': 5, '互助支援行为': 38.5}
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - Topic 12: 互助支援行为 (文档数: 17)
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 136, '信息搜索行为': 51, '互助支援行为': 95.5}
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - Topic 13: 信息搜索行为 (文档数: 17)
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 0, '信息搜索行为': 2, '互助支援行为': 0}
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - Topic 14: 紧急求助行为 (文档数: 15)
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 60, '信息搜索行为': 43, '互助支援行为': 5.0}
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - Topic 15: 紧急求助行为 (文档数: 13)
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 40, '信息搜索行为': 18, '互助支援行为': 9}
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - Topic 16: 紧急求助行为 (文档数: 12)
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 58, '信息搜索行为': 34, '互助支援行为': 11}
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - 
+✅ 成功识别到 502 条互助支援行为
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - 
+互助支援行为示例:
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - 示例 1: 杜苏芮将于28日在福建福清到广东惠来一带沿海登陆 国家防总办公室应急管理部26日组织防汛防台风专题视频会商调度与中国气象局水利部自然资源部会商研判今年第5号台风杜苏芮发展态势视频连线福建广东浙江四川等...
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - 示例 2: 国家防总提升防汛防台风应急响应至三级今年第5号台风杜苏芮逐渐向闽粤沿海靠近记者26日从应急管理部获悉国家防总当日将防汛防台风应急响应提升至三级派出4个工作组赴浙江福建广东江西协助指导防汛防台风工作国家...
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - 示例 3: 国家防总提升防汛防台风应急响应至三级台风杜苏芮 7月26日国家防总办公室应急管理部组织防汛防台风专题视频会商调度与中国气象局水利部自然资源部会商研判今年第5号台风杜苏芮发展态势视频连线福建广东浙江四川...
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - 
+详细分析完成！
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - BERTopic行为分类完整流程执行完成
+2025-07-05 19:14:41 - bertopic_behavior_classification - INFO - BERTopic行为分类成功完成！
+2025-07-05 19:17:43 - bertopic_behavior_classification - INFO - 构建行为关键词词典...
+2025-07-05 19:17:43 - bertopic_behavior_classification - INFO - 行为关键词词典构建完成，包含 125 个关键词
+2025-07-05 19:17:43 - bertopic_behavior_classification - INFO - 开始运行BERTopic行为分类完整流程...
+2025-07-05 19:17:43 - bertopic_behavior_classification - INFO - 加载数据: data/clean/processed_data.csv
+2025-07-05 19:17:44 - bertopic_behavior_classification - INFO - 数据量过大(89027)，只取前1000条进行测试...
+2025-07-05 19:17:44 - bertopic_behavior_classification - INFO - 数据加载成功，共 1000 条记录
+2025-07-05 19:17:44 - bertopic_behavior_classification - INFO - 数据预处理...
+2025-07-05 19:17:44 - bertopic_behavior_classification - INFO - 开始训练BERTopic模型...
+2025-07-05 19:17:46 - bertopic_behavior_classification - INFO - 使用嵌入模型: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-05 19:17:46 - bertopic_behavior_classification - INFO - 生成文本嵌入...
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - BERTopic模型训练完成，发现 19 个主题
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - 开始主题到行为的映射...
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - Topic 0: 互助支援行为 (得分: {'紧急求助行为': 2524, '信息搜索行为': 621, '互助支援行为': 1499.5})
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - Topic 1: 互助支援行为 (得分: {'紧急求助行为': 364, '信息搜索行为': 99, '互助支援行为': 239.0})
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - Topic 2: 互助支援行为 (得分: {'紧急求助行为': 244, '信息搜索行为': 27, '互助支援行为': 123.0})
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - Topic 3: 紧急求助行为 (得分: {'紧急求助行为': 12, '信息搜索行为': 4, '互助支援行为': 3})
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - Topic 4: 信息搜索行为 (得分: {'紧急求助行为': 3, '信息搜索行为': 5, '互助支援行为': 2})
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - Topic 5: 信息搜索行为 (得分: {'紧急求助行为': 0, '信息搜索行为': 2, '互助支援行为': 1})
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - Topic 6: 紧急求助行为 (得分: {'紧急求助行为': 78, '信息搜索行为': 7, '互助支援行为': 28.5})
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - Topic 7: 紧急求助行为 (得分: {'紧急求助行为': 125, '信息搜索行为': 18, '互助支援行为': 33.0})
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - Topic 8: 紧急求助行为 (得分: {'紧急求助行为': 138, '信息搜索行为': 23, '互助支援行为': 47.5})
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - Topic 9: 紧急求助行为 (得分: {'紧急求助行为': 99, '信息搜索行为': 35, '互助支援行为': 3.5})
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - Topic 10: 紧急求助行为 (得分: {'紧急求助行为': 76, '信息搜索行为': 4, '互助支援行为': 23.0})
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - Topic 11: 紧急求助行为 (得分: {'紧急求助行为': 133, '信息搜索行为': 5, '互助支援行为': 38.5})
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - Topic 12: 信息搜索行为 (得分: {'紧急求助行为': 0, '信息搜索行为': 2, '互助支援行为': 0})
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - Topic 13: 紧急求助行为 (得分: {'紧急求助行为': 60, '信息搜索行为': 43, '互助支援行为': 5.0})
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - Topic 14: 紧急求助行为 (得分: {'紧急求助行为': 40, '信息搜索行为': 18, '互助支援行为': 9})
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - Topic 15: 互助支援行为 (得分: {'紧急求助行为': 72, '信息搜索行为': 7, '互助支援行为': 54.5})
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - Topic 16: 紧急求助行为 (得分: {'紧急求助行为': 58, '信息搜索行为': 34, '互助支援行为': 11})
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - Topic 17: 紧急求助行为 (得分: {'紧急求助行为': 76, '信息搜索行为': 20, '互助支援行为': 19.0})
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - 主题行为映射完成，共映射 18 个主题
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - 行为分布: {'互助支援行为': 573, '紧急求助行为': 219, '信息搜索行为': 72}
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - 创建行为标签...
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - 训练行为分类器...
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - 分类器训练完成
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - 精确率: 0.7947
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - 召回率: 0.7500
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - F1分数: 0.7157
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - 分类报告:
+              precision    recall  f1-score   support
+
+      互助支援行为       0.71      1.00      0.83       115
+      信息搜索行为       0.86      0.29      0.44        41
+      紧急求助行为       0.96      0.52      0.68        44
+
+    accuracy                           0.75       200
+   macro avg       0.84      0.61      0.65       200
+weighted avg       0.79      0.75      0.72       200
+
+2025-07-05 19:18:27 - bertopic_behavior_classification - INFO - 分析行为分布...
+2025-07-05 19:18:41 - bertopic_behavior_classification - INFO - 生成行为分析报告...
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - 行为分析报告生成完成
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - 
+=== 详细行为分析 ===
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - 紧急求助行为: 219 条 (21.9%)
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - 信息搜索行为: 208 条 (20.8%)
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - 互助支援行为: 573 条 (57.3%)
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - 
+=== 主题-行为映射分析 ===
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - Topic 0: 互助支援行为 (文档数: 437)
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 2524, '信息搜索行为': 621, '互助支援行为': 1499.5}
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - Topic 1: 互助支援行为 (文档数: 71)
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 364, '信息搜索行为': 99, '互助支援行为': 239.0}
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - Topic 2: 互助支援行为 (文档数: 52)
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 244, '信息搜索行为': 27, '互助支援行为': 123.0}
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - Topic 3: 紧急求助行为 (文档数: 37)
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 12, '信息搜索行为': 4, '互助支援行为': 3}
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - Topic 4: 信息搜索行为 (文档数: 31)
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 3, '信息搜索行为': 5, '互助支援行为': 2}
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - Topic 5: 信息搜索行为 (文档数: 25)
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 0, '信息搜索行为': 2, '互助支援行为': 1}
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - Topic 6: 紧急求助行为 (文档数: 25)
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 78, '信息搜索行为': 7, '互助支援行为': 28.5}
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - Topic 7: 紧急求助行为 (文档数: 23)
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 125, '信息搜索行为': 18, '互助支援行为': 33.0}
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - Topic 8: 紧急求助行为 (文档数: 23)
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 138, '信息搜索行为': 23, '互助支援行为': 47.5}
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - Topic 9: 紧急求助行为 (文档数: 22)
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 99, '信息搜索行为': 35, '互助支援行为': 3.5}
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - Topic 10: 紧急求助行为 (文档数: 20)
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 76, '信息搜索行为': 4, '互助支援行为': 23.0}
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - Topic 11: 紧急求助行为 (文档数: 19)
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 133, '信息搜索行为': 5, '互助支援行为': 38.5}
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - Topic 12: 信息搜索行为 (文档数: 16)
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 0, '信息搜索行为': 2, '互助支援行为': 0}
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - Topic 13: 紧急求助行为 (文档数: 15)
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 60, '信息搜索行为': 43, '互助支援行为': 5.0}
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - Topic 14: 紧急求助行为 (文档数: 13)
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 40, '信息搜索行为': 18, '互助支援行为': 9}
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - Topic 15: 互助支援行为 (文档数: 13)
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 72, '信息搜索行为': 7, '互助支援行为': 54.5}
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - Topic 16: 紧急求助行为 (文档数: 12)
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 58, '信息搜索行为': 34, '互助支援行为': 11}
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - Topic 17: 紧急求助行为 (文档数: 10)
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 76, '信息搜索行为': 20, '互助支援行为': 19.0}
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - 
+✅ 成功识别到 573 条互助支援行为
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - 
+互助支援行为示例:
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - 示例 1: 杜苏芮将于28日在福建福清到广东惠来一带沿海登陆 国家防总办公室应急管理部26日组织防汛防台风专题视频会商调度与中国气象局水利部自然资源部会商研判今年第5号台风杜苏芮发展态势视频连线福建广东浙江四川等...
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - 示例 2: 国家防总提升防汛防台风应急响应至三级今年第5号台风杜苏芮逐渐向闽粤沿海靠近记者26日从应急管理部获悉国家防总当日将防汛防台风应急响应提升至三级派出4个工作组赴浙江福建广东江西协助指导防汛防台风工作国家...
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - 示例 3: 国家防总提升防汛防台风应急响应至三级台风杜苏芮 7月26日国家防总办公室应急管理部组织防汛防台风专题视频会商调度与中国气象局水利部自然资源部会商研判今年第5号台风杜苏芮发展态势视频连线福建广东浙江四川...
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - 
+详细分析完成！
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - BERTopic行为分类完整流程执行完成
+2025-07-05 19:18:42 - bertopic_behavior_classification - INFO - BERTopic行为分类成功完成！
+2025-07-05 19:23:35 - bertopic_behavior_classification - INFO - 构建行为关键词词典...
+2025-07-05 19:23:35 - bertopic_behavior_classification - INFO - 行为关键词词典构建完成，包含 125 个关键词
+2025-07-05 19:23:35 - bertopic_behavior_classification - INFO - 开始运行BERTopic行为分类完整流程...
+2025-07-05 19:23:35 - bertopic_behavior_classification - INFO - 加载数据: data/clean/processed_data.csv
+2025-07-05 19:23:37 - bertopic_behavior_classification - INFO - 数据量过大(89027)，取前1000条进行测试...
+2025-07-05 19:23:37 - bertopic_behavior_classification - INFO - 数据加载成功，共 1000 条记录
+2025-07-05 19:23:37 - bertopic_behavior_classification - INFO - 数据预处理...
+2025-07-05 19:23:37 - bertopic_behavior_classification - INFO - 开始训练BERTopic模型...
+2025-07-05 19:23:40 - bertopic_behavior_classification - INFO - 使用嵌入模型: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-05 19:23:40 - bertopic_behavior_classification - INFO - 生成文本嵌入...
+2025-07-05 19:32:00 - bertopic_behavior_classification - INFO - 构建行为关键词词典...
+2025-07-05 19:32:00 - bertopic_behavior_classification - INFO - 行为关键词词典构建完成，包含 125 个关键词
+2025-07-05 19:32:00 - bertopic_behavior_classification - INFO - 开始运行BERTopic行为分类完整流程...
+2025-07-05 19:32:00 - bertopic_behavior_classification - INFO - 加载数据: data/clean/processed_data.csv
+2025-07-05 19:32:01 - bertopic_behavior_classification - INFO - 数据量过大(89027)，取前1000条进行测试...
+2025-07-05 19:32:01 - bertopic_behavior_classification - INFO - 数据加载成功，共 1000 条记录
+2025-07-05 19:32:01 - bertopic_behavior_classification - INFO - 数据预处理...
+2025-07-05 19:32:01 - bertopic_behavior_classification - INFO - 开始训练BERTopic模型...
+2025-07-05 19:32:06 - bertopic_behavior_classification - INFO - 使用嵌入模型: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-05 19:32:06 - bertopic_behavior_classification - INFO - 生成文本嵌入...
+2025-07-05 19:34:03 - bertopic_behavior_classification - INFO - BERTopic模型训练完成，发现 12 个主题
+2025-07-05 19:34:03 - bertopic_behavior_classification - INFO - 开始主题到行为的映射...
+2025-07-05 19:34:03 - bertopic_behavior_classification - INFO - Topic 0: 互助支援行为 (得分: {'紧急求助行为': 3632, '信息搜索行为': 817, '互助支援行为': 1946.0})
+2025-07-05 19:34:03 - bertopic_behavior_classification - INFO - Topic 1: 互助支援行为 (得分: {'紧急求助行为': 191, '信息搜索行为': 10, '互助支援行为': 95.5})
+2025-07-05 19:34:03 - bertopic_behavior_classification - INFO - Topic 2: 信息搜索行为 (得分: {'紧急求助行为': 1, '信息搜索行为': 5, '互助支援行为': 1})
+2025-07-05 19:34:03 - bertopic_behavior_classification - INFO - Topic 3: 紧急求助行为 (得分: {'紧急求助行为': 12, '信息搜索行为': 4, '互助支援行为': 2})
+2025-07-05 19:34:03 - bertopic_behavior_classification - INFO - Topic 4: 信息搜索行为 (得分: {'紧急求助行为': 2, '信息搜索行为': 5, '互助支援行为': 2})
+2025-07-05 19:34:03 - bertopic_behavior_classification - INFO - Topic 5: 紧急求助行为 (得分: {'紧急求助行为': 76, '信息搜索行为': 4, '互助支援行为': 23.0})
+2025-07-05 19:34:03 - bertopic_behavior_classification - INFO - Topic 6: 紧急求助行为 (得分: {'紧急求助行为': 133, '信息搜索行为': 5, '互助支援行为': 38.5})
+2025-07-05 19:34:03 - bertopic_behavior_classification - INFO - Topic 7: 信息搜索行为 (得分: {'紧急求助行为': 0, '信息搜索行为': 2, '互助支援行为': 0})
+2025-07-05 19:34:03 - bertopic_behavior_classification - INFO - Topic 8: 紧急求助行为 (得分: {'紧急求助行为': 60, '信息搜索行为': 43, '互助支援行为': 5.0})
+2025-07-05 19:34:03 - bertopic_behavior_classification - INFO - Topic 9: 紧急求助行为 (得分: {'紧急求助行为': 40, '信息搜索行为': 18, '互助支援行为': 9})
+2025-07-05 19:34:03 - bertopic_behavior_classification - INFO - Topic 10: 紧急求助行为 (得分: {'紧急求助行为': 58, '信息搜索行为': 34, '互助支援行为': 11})
+2025-07-05 19:34:03 - bertopic_behavior_classification - INFO - 主题行为映射完成，共映射 11 个主题
+2025-07-05 19:34:03 - bertopic_behavior_classification - INFO - 行为分布: {'互助支援行为': 712, '信息搜索行为': 76, '紧急求助行为': 110}
+2025-07-05 19:34:03 - bertopic_behavior_classification - INFO - 创建行为标签...
+2025-07-05 19:34:03 - bertopic_behavior_classification - INFO - 训练行为分类器...
+2025-07-05 19:34:04 - bertopic_behavior_classification - INFO - 分类器训练完成
+2025-07-05 19:34:04 - bertopic_behavior_classification - INFO - 精确率: 0.8089
+2025-07-05 19:34:04 - bertopic_behavior_classification - INFO - 召回率: 0.8050
+2025-07-05 19:34:04 - bertopic_behavior_classification - INFO - F1分数: 0.7719
+2025-07-05 19:34:04 - bertopic_behavior_classification - INFO - 分类报告:
+              precision    recall  f1-score   support
+
+      互助支援行为       0.79      0.98      0.88       142
+      信息搜索行为       0.75      0.25      0.38        36
+      紧急求助行为       1.00      0.59      0.74        22
+
+    accuracy                           0.81       200
+   macro avg       0.85      0.61      0.66       200
+weighted avg       0.81      0.81      0.77       200
+
+2025-07-05 19:34:04 - bertopic_behavior_classification - INFO - 分析行为分布...
+2025-07-05 19:34:10 - bertopic_behavior_classification - INFO - 生成行为分析报告...
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - 行为分析报告生成完成
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - 
+=== 详细行为分析 ===
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - 紧急求助行为: 110 条 (11.0%)
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - 信息搜索行为: 178 条 (17.8%)
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - 互助支援行为: 712 条 (71.2%)
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - 
+=== 主题-行为映射分析 ===
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - Topic 0: 互助支援行为 (文档数: 677)
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 3632, '信息搜索行为': 817, '互助支援行为': 1946.0}
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - Topic 1: 互助支援行为 (文档数: 35)
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 191, '信息搜索行为': 10, '互助支援行为': 95.5}
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - Topic 2: 信息搜索行为 (文档数: 32)
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 1, '信息搜索行为': 5, '互助支援行为': 1}
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - Topic 3: 紧急求助行为 (文档数: 31)
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 12, '信息搜索行为': 4, '互助支援行为': 2}
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - Topic 4: 信息搜索行为 (文档数: 29)
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 2, '信息搜索行为': 5, '互助支援行为': 2}
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - Topic 5: 紧急求助行为 (文档数: 20)
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 76, '信息搜索行为': 4, '互助支援行为': 23.0}
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - Topic 6: 紧急求助行为 (文档数: 19)
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 133, '信息搜索行为': 5, '互助支援行为': 38.5}
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - Topic 7: 信息搜索行为 (文档数: 15)
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 0, '信息搜索行为': 2, '互助支援行为': 0}
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - Topic 8: 紧急求助行为 (文档数: 15)
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 60, '信息搜索行为': 43, '互助支援行为': 5.0}
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - Topic 9: 紧急求助行为 (文档数: 13)
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 40, '信息搜索行为': 18, '互助支援行为': 9}
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - Topic 10: 紧急求助行为 (文档数: 12)
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO -   得分详情: {'紧急求助行为': 58, '信息搜索行为': 34, '互助支援行为': 11}
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - 
+✅ 成功识别到 712 条互助支援行为
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - 
+互助支援行为示例:
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - 示例 1: 杜苏芮将于28日在福建福清到广东惠来一带沿海登陆 国家防总办公室应急管理部26日组织防汛防台风专题视频会商调度与中国气象局水利部自然资源部会商研判今年第5号台风杜苏芮发展态势视频连线福建广东浙江四川等...
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - 示例 2: 国家防总提升防汛防台风应急响应至三级今年第5号台风杜苏芮逐渐向闽粤沿海靠近记者26日从应急管理部获悉国家防总当日将防汛防台风应急响应提升至三级派出4个工作组赴浙江福建广东江西协助指导防汛防台风工作国家...
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - 示例 3: 国家防总提升防汛防台风应急响应至三级台风杜苏芮 7月26日国家防总办公室应急管理部组织防汛防台风专题视频会商调度与中国气象局水利部自然资源部会商研判今年第5号台风杜苏芮发展态势视频连线福建广东浙江四川...
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - 
+详细分析完成！
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - BERTopic行为分类完整流程执行完成
+2025-07-05 19:34:11 - bertopic_behavior_classification - INFO - BERTopic行为分类成功完成！
+2025-07-05 19:41:41 - bertopic_behavior_classification - INFO - 构建行为关键词词典...
+2025-07-05 19:41:41 - bertopic_behavior_classification - INFO - 行为关键词词典构建完成，包含 79 个关键词
+2025-07-05 19:41:41 - bertopic_behavior_classification - INFO - 开始运行BERTopic行为分类完整流程...
+2025-07-05 19:41:41 - bertopic_behavior_classification - INFO - 加载数据: data/clean/processed_data.csv
+2025-07-05 19:41:42 - bertopic_behavior_classification - INFO - 数据量过大(89027)，只取前1000条进行测试...
+2025-07-05 19:41:42 - bertopic_behavior_classification - INFO - 数据加载成功，共 1000 条记录
+2025-07-05 19:41:42 - bertopic_behavior_classification - INFO - 数据预处理...
+2025-07-05 19:41:42 - bertopic_behavior_classification - INFO - 开始训练BERTopic模型...
+2025-07-05 19:41:46 - bertopic_behavior_classification - INFO - 使用嵌入模型: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-05 19:41:46 - bertopic_behavior_classification - INFO - 生成文本嵌入...
+2025-07-05 19:42:26 - bertopic_behavior_classification - INFO - BERTopic模型训练完成，发现 19 个主题
+2025-07-05 19:42:26 - bertopic_behavior_classification - INFO - 开始主题到行为的映射...
+2025-07-05 19:42:26 - bertopic_behavior_classification - INFO - 主题行为映射完成，共映射 18 个主题
+2025-07-05 19:42:26 - bertopic_behavior_classification - INFO - 创建行为标签...
+2025-07-05 19:42:26 - bertopic_behavior_classification - INFO - 训练行为分类器...
+2025-07-05 19:42:27 - bertopic_behavior_classification - INFO - 分类器训练完成
+2025-07-05 19:42:27 - bertopic_behavior_classification - INFO - 精确率: 0.9062
+2025-07-05 19:42:27 - bertopic_behavior_classification - INFO - 召回率: 0.9000
+2025-07-05 19:42:27 - bertopic_behavior_classification - INFO - F1分数: 0.8895
+2025-07-05 19:43:34 - bertopic_behavior_classification - INFO - 构建行为关键词词典...
+2025-07-05 19:43:34 - bertopic_behavior_classification - INFO - 行为关键词词典构建完成，包含 79 个关键词
+2025-07-05 19:43:34 - bertopic_behavior_classification - INFO - 开始运行BERTopic行为分类完整流程...
+2025-07-05 19:43:34 - bertopic_behavior_classification - INFO - 加载数据: data/clean/processed_data.csv
+2025-07-05 19:43:35 - bertopic_behavior_classification - INFO - 数据量过大(89027)，只取前1000条进行测试...
+2025-07-05 19:43:35 - bertopic_behavior_classification - INFO - 数据加载成功，共 1000 条记录
+2025-07-05 19:43:35 - bertopic_behavior_classification - INFO - 数据预处理...
+2025-07-05 19:43:35 - bertopic_behavior_classification - INFO - 开始训练BERTopic模型...
+2025-07-05 19:43:38 - bertopic_behavior_classification - INFO - 使用嵌入模型: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-05 19:43:38 - bertopic_behavior_classification - INFO - 生成文本嵌入...
+2025-07-05 19:44:42 - bertopic_behavior_classification - INFO - BERTopic模型训练完成，发现 19 个主题
+2025-07-05 19:44:42 - bertopic_behavior_classification - INFO - 开始主题到行为的映射...
+2025-07-05 19:44:42 - bertopic_behavior_classification - INFO - 主题行为映射完成，共映射 18 个主题
+2025-07-05 19:44:42 - bertopic_behavior_classification - INFO - 创建行为标签...
+2025-07-05 19:44:42 - bertopic_behavior_classification - INFO - 训练行为分类器...
+2025-07-05 19:44:42 - bertopic_behavior_classification - INFO - 分类器训练完成
+2025-07-05 19:44:42 - bertopic_behavior_classification - INFO - 精确率: 0.9000
+2025-07-05 19:44:42 - bertopic_behavior_classification - INFO - 召回率: 0.9000
+2025-07-05 19:44:42 - bertopic_behavior_classification - INFO - F1分数: 0.8880
+2025-07-05 19:44:42 - bertopic_behavior_classification - INFO - 分类报告:
+              precision    recall  f1-score   support
+
+      信息搜索行为       0.90      0.50      0.64        36
+      紧急求助行为       0.90      0.99      0.94       164
+
+    accuracy                           0.90       200
+   macro avg       0.90      0.74      0.79       200
+weighted avg       0.90      0.90      0.89       200
+
+2025-07-05 19:44:42 - bertopic_behavior_classification - INFO - 分析行为分布...
+2025-07-05 19:46:32 - bertopic_behavior_classification - INFO - 构建行为关键词词典...
+2025-07-05 19:46:32 - bertopic_behavior_classification - INFO - 行为关键词词典构建完成，包含 79 个关键词
+2025-07-05 19:46:32 - bertopic_behavior_classification - INFO - 开始运行BERTopic行为分类完整流程...
+2025-07-05 19:46:32 - bertopic_behavior_classification - INFO - 加载数据: data/clean/processed_data.csv
+2025-07-05 19:46:32 - bertopic_behavior_classification - INFO - 数据量过大(89027)，只取前1000条进行测试...
+2025-07-05 19:46:32 - bertopic_behavior_classification - INFO - 数据加载成功，共 1000 条记录
+2025-07-05 19:46:32 - bertopic_behavior_classification - INFO - 数据预处理...
+2025-07-05 19:46:32 - bertopic_behavior_classification - INFO - 开始训练BERTopic模型...
+2025-07-05 19:46:34 - bertopic_behavior_classification - INFO - 使用嵌入模型: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-05 19:46:34 - bertopic_behavior_classification - INFO - 生成文本嵌入...
+2025-07-05 19:47:05 - bertopic_behavior_classification - INFO - BERTopic模型训练完成，发现 37 个主题
+2025-07-05 19:47:05 - bertopic_behavior_classification - INFO - 开始主题到行为的映射...
+2025-07-05 19:47:05 - bertopic_behavior_classification - INFO - 主题行为映射完成，共映射 36 个主题
+2025-07-05 19:47:05 - bertopic_behavior_classification - INFO - 创建行为标签...
+2025-07-05 19:47:05 - bertopic_behavior_classification - INFO - 训练行为分类器...
+2025-07-05 19:47:05 - bertopic_behavior_classification - INFO - 分类器训练完成
+2025-07-05 19:47:05 - bertopic_behavior_classification - INFO - 精确率: 0.8891
+2025-07-05 19:47:05 - bertopic_behavior_classification - INFO - 召回率: 0.8950
+2025-07-05 19:47:05 - bertopic_behavior_classification - INFO - F1分数: 0.8812
+2025-07-05 19:47:05 - bertopic_behavior_classification - INFO - 分类报告:
+              precision    recall  f1-score   support
+
+      信息搜索行为       0.82      0.44      0.57        32
+      紧急求助行为       0.90      0.98      0.94       168
+
+    accuracy                           0.90       200
+   macro avg       0.86      0.71      0.76       200
+weighted avg       0.89      0.90      0.88       200
+
+2025-07-05 19:47:05 - bertopic_behavior_classification - INFO - 分析行为分布...
+2025-07-05 19:47:07 - bertopic_behavior_classification - INFO - 生成行为分析报告...
+2025-07-05 19:47:08 - bertopic_behavior_classification - INFO - 行为分析报告生成完成
+2025-07-05 19:47:08 - bertopic_behavior_classification - INFO - BERTopic行为分类完整流程执行完成
+2025-07-05 19:47:08 - bertopic_behavior_classification - INFO - BERTopic行为分类成功完成！
+2025-07-05 19:53:15 - bertopic_behavior_classification - INFO - 构建行为关键词词典...
+2025-07-05 19:53:15 - bertopic_behavior_classification - INFO - 行为关键词词典构建完成，包含 79 个关键词
+2025-07-05 19:53:15 - bertopic_behavior_classification - INFO - 开始运行BERTopic行为分类完整流程...
+2025-07-05 19:53:15 - bertopic_behavior_classification - INFO - 加载数据: data/clean/processed_data.csv
+2025-07-05 19:53:16 - bertopic_behavior_classification - INFO - 数据量过大(89027)，只取前1000条进行测试...
+2025-07-05 19:53:16 - bertopic_behavior_classification - INFO - 数据加载成功，共 1000 条记录
+2025-07-05 19:53:16 - bertopic_behavior_classification - INFO - 数据预处理...
+2025-07-05 19:53:16 - bertopic_behavior_classification - INFO - 开始训练BERTopic模型...
+2025-07-05 19:53:19 - bertopic_behavior_classification - INFO - 使用嵌入模型: paraphrase-multilingual-MiniLM-L12-v2
+2025-07-05 19:53:19 - bertopic_behavior_classification - INFO - 生成文本嵌入...
+2025-07-05 19:54:02 - bertopic_behavior_classification - INFO - BERTopic模型训练完成，发现 37 个主题
+2025-07-05 19:54:02 - bertopic_behavior_classification - INFO - 开始主题到行为的映射...
+2025-07-05 19:54:02 - bertopic_behavior_classification - INFO - 主题行为映射完成，共映射 36 个主题
+2025-07-05 19:54:02 - bertopic_behavior_classification - INFO - 创建行为标签...
+2025-07-05 19:54:02 - bertopic_behavior_classification - INFO - 训练行为分类器...
+2025-07-05 19:54:02 - bertopic_behavior_classification - INFO - 分类器训练完成
+2025-07-05 19:54:02 - bertopic_behavior_classification - INFO - 精确率: 0.8793
+2025-07-05 19:54:02 - bertopic_behavior_classification - INFO - 召回率: 0.8700
+2025-07-05 19:54:02 - bertopic_behavior_classification - INFO - F1分数: 0.8477
+2025-07-05 19:54:02 - bertopic_behavior_classification - INFO - 分类报告:
+              precision    recall  f1-score   support
+
+      信息搜索行为       0.94      0.39      0.55        41
+      紧急求助行为       0.86      0.99      0.92       159
+
+    accuracy                           0.87       200
+   macro avg       0.90      0.69      0.74       200
+weighted avg       0.88      0.87      0.85       200
+
+2025-07-05 19:54:02 - bertopic_behavior_classification - INFO - 分析行为分布...
+2025-07-05 19:54:08 - bertopic_behavior_classification - INFO - 生成行为分析报告...
+2025-07-05 19:54:09 - bertopic_behavior_classification - INFO - 行为分析报告生成完成
+2025-07-05 19:54:09 - bertopic_behavior_classification - INFO - BERTopic行为分类完整流程执行完成
+2025-07-05 19:54:09 - bertopic_behavior_classification - INFO - BERTopic行为分类成功完成！
