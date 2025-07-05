@@ -797,6 +797,12 @@ def main():
         # 5. 保存结果
         output_dir = save_results(results_df, topic_info)
         
+        # topic_info 排序，确保画图顺序为1~16
+        if isinstance(topic_info, list):
+            topic_info = sorted(topic_info, key=lambda x: x['Topic'])
+        elif hasattr(topic_info, 'sort_values'):
+            topic_info = topic_info.sort_values(by='Topic').reset_index(drop=True)
+
         # 6. 创建完整可视化（包含main.ipynb中的所有可视化）
         create_visualizations(topic_info, output_dir, sample_texts, embeddings[:len(sample_texts)], topics)
         
