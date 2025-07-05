@@ -1,0 +1,48 @@
+
+# BERTopic行为分类分析报告
+
+## 1. 实验概述
+- 数据量: 1000 条微博
+- 主题数量: 18 个有效主题
+- 行为类别: 3类（紧急求助行为、信息搜索行为、互助支援行为）
+
+## 2. 模型性能
+- 精确率: 0.7947
+- 召回率: 0.7500
+- F1分数: 0.7157
+
+## 3. 行为分布
+- 互助支援行为: 573 条 (57.3%)
+- 紧急求助行为: 219 条 (21.9%)
+- 信息搜索行为: 208 条 (20.8%)
+
+## 4. 主题-行为映射
+- Topic 0: 互助支援行为 (437 条文档)
+- Topic 1: 互助支援行为 (71 条文档)
+- Topic 2: 互助支援行为 (52 条文档)
+- Topic 3: 紧急求助行为 (37 条文档)
+- Topic 4: 信息搜索行为 (31 条文档)
+- Topic 5: 信息搜索行为 (25 条文档)
+- Topic 6: 紧急求助行为 (25 条文档)
+- Topic 7: 紧急求助行为 (23 条文档)
+- Topic 8: 紧急求助行为 (23 条文档)
+- Topic 9: 紧急求助行为 (22 条文档)
+- Topic 10: 紧急求助行为 (20 条文档)
+- Topic 11: 紧急求助行为 (19 条文档)
+- Topic 12: 信息搜索行为 (16 条文档)
+- Topic 13: 紧急求助行为 (15 条文档)
+- Topic 14: 紧急求助行为 (13 条文档)
+- Topic 15: 互助支援行为 (13 条文档)
+- Topic 16: 紧急求助行为 (12 条文档)
+- Topic 17: 紧急求助行为 (10 条文档)
+
+## 5. 技术方法
+- 嵌入模型: SentenceTransformer
+- 主题建模: BERTopic
+- 分类器: RandomForest
+- 特征提取: TF-IDF
+
+## 6. 文件输出
+- 分类结果: result/behavior_analysis/behavior_classification_results.csv
+- 可视化图表: result/behavior_analysis/behavior_distribution_analysis.png
+- 模型文件: result/behavior_analysis/bertopic_behavior_model.pkl
