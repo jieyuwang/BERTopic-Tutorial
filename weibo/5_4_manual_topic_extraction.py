@@ -443,7 +443,7 @@ def create_topic_word_barcharts(topic_info, viz_dir, top_n=10):
         ax.tick_params(axis='x', labelsize=10)
         for spine in ['top', 'right']:
             ax.spines[spine].set_visible(False)
-    plt.suptitle("各主题关键词分数（前16个主题）", fontsize=20, fontweight='bold')
+    plt.suptitle("各主题关键词分数", fontsize=20, fontweight='bold')
     plt.tight_layout(rect=[0, 0, 1, 0.96])
     plt.savefig(os.path.join(viz_dir, "1_topic_word_barcharts.png"), dpi=300, bbox_inches='tight')
     plt.close()
@@ -560,7 +560,8 @@ def create_topic_keywords_heatmap(topic_info, viz_dir):
             words_df = words_df[words_df['Word'].isin(top_words)]
             pivot_df = words_df.pivot_table(index='Topic', columns='Word', values='Score', aggfunc='mean').fillna(0)
             plt.figure(figsize=(18, 10))
-            sns.heatmap(pivot_df, annot=True, cmap='YlOrRd', fmt='.2f', cbar_kws={'label': 'TF-IDF Score'}, linewidths=0.5)
+            sns.heatmap(pivot_df, annot=True, cmap='Blues', fmt='.2f', cbar_kws={'label': 'TF-IDF Score'}, linewidths=0.5)
+            # sns.heatmap(pivot_df, annot=True, cmap='YlOrRd', fmt='.2f', cbar_kws={'label': 'TF-IDF Score'}, linewidths=0.5)
             plt.title('主题关键词热力图', fontsize=16, fontweight='bold')
             plt.xlabel('关键词', fontsize=12, fontweight='bold')
             plt.ylabel('主题', fontsize=12, fontweight='bold')
