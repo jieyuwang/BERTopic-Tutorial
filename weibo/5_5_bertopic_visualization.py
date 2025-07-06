@@ -240,7 +240,9 @@ def main():
 
     # 1. 主题关键词条形图 (对应main.ipynb Cell 12)
     print("生成主题关键词条形图...")
-    fig = topic_model.visualize_barchart(top_n_topics=16)
+    # 让条形图topic顺序与topic_info一致
+    topic_order = topic_info['Topic'].tolist()[:16]
+    fig = topic_model.visualize_barchart(top_n_topics=16, topics=topic_order)
     fig.write_html("results/5_5/1_topic_barchart.html")
     try:
         fig.write_image("results/5_5/1_topic_barchart.png", width=1200, height=800)
@@ -250,7 +252,7 @@ def main():
 
     # 2. 主题可视化 (对应main.ipynb Cell 13)
     print("生成主题可视化...")
-    fig = topic_model.visualize_topics()
+    fig = topic_model.visualize_topics(topics = topic_order, custom_labels=custom_labels)
     fig.write_html("results/5_5/2_topic_visualization.html")
     try:
         fig.write_image("results/5_5/2_topic_visualization.png", width=1200, height=800)
