@@ -72,30 +72,27 @@ class BERTopicBehaviorClassifier:
         self.vectorizer = None
         
     def _build_behavior_keywords(self):
-        """构建行为关键词词典"""
-        logger.info("构建行为关键词词典...")
+        """构建行为关键词词典（新版三大类）"""
+        logger.info("构建行为关键词词典（新版三大类）...")
         behavior_keywords = {
-            '紧急求助行为': {
-                '生命安全求助': ['救命', '被困', '危险', '紧急', '快', '急', '救援', '转移', '疏散', '洪水', '台风', '暴雨', '灾害', '险情'],
-                '生活需求求助': ['求助', '需要帮助', '帮忙', '支持', '援助', '食物', '水', '药品', '物资', '救援'],
-                '信息需求求助': ['请问', '谁知道', '求问', '咨询', '了解', '情况', '最新', '怎么样', '如何']
-            },
             '信息搜索行为': {
-                '主动询问': ['请问', '谁知道', '求问', '帮忙', '需要', '了解', '什么', '哪里', '什么时候', '怎么'],
-                '信息求证': ['真的吗', '确认', '核实', '求证', '是否', '真假', '消息', '准确', '可靠'],
-                '关注动态': ['关注', '跟踪', '更新', '最新', '情况', '进展', '新闻', '报道', '通知'],
-                '寻求建议': ['建议', '怎么办', '如何', '应该', '推荐', '意见', '方法', '处理']
+                '主动询问': ['请问', '谁知道', '求问', '有人知道', '哪里', '怎么', '如何', '什么', '哪儿', '哪位', '能否', '能不能', '有没有', '求解', '求助', '想了解', '想知道', '请教', '请大家'],
+                '信息求证': ['真的吗', '确认', '核实', '求证', '是否', '真假', '消息', '准确', '可靠', '辟谣', '澄清', '证实', '查证', '查实', '查明', '求真', '求实', '官方', '权威'],
+                '关注动态': ['关注', '跟踪', '更新', '最新', '情况', '进展', '新闻', '报道', '通知', '动态', '实时', '直播', '追踪', '持续', '后续', '变化', '官方通报', '公告'],
+                '寻求建议': ['建议', '怎么办', '如何', '应该', '推荐', '意见', '方法', '处理', '措施', '应对', '方案', '求建议', '求意见', '求方法', '求措施', '求方案', '请指教']
             },
-            '互助支援行为': {
-                '紧急救援': ['救援', '抢险', '救助', '转移', '疏散', '志愿者', '参与', '奔赴', '支援', '协助'],
-                '物资支援': ['捐赠', '支援', '提供', '分享', '免费', '物资', '帮助', '捐献', '贡献', '爱心'],
-                '志愿服务': ['志愿者', '互助', '团结', '一起', '参与', '服务', '义务', '公益', '志愿'],
-                '情感支持': ['加油', '支持', '鼓励', '安慰', '理解', '坚强', '挺住', '坚持', '相信', '希望'],
-                '组织协调': ['组织', '协调', '安排', '调度', '指挥', '统筹', '配合', '合作', '联合'],
-                '信息传播': ['转发', '扩散', '传播', '分享', '告知', '通知', '提醒', '预警']
+            '亲社会行为': {
+                '紧急救援': ['救援', '抢险', '救助', '转移', '疏散', '志愿者', '参与', '支援', '协助', '营救', '搜救', '救护', '救生', '救人', '救火', '救灾', '救护车', '救援队', '救援力量', '救援物资'],
+                '物资支援': ['捐赠', '支援', '提供', '分享', '免费', '物资', '帮助', '捐献', '贡献', '爱心', '物品', '物料', '物资包', '物资车', '物资点', '物资供应', '物资运输', '物资调配', '物资发放', '物资募集'],
+                '志愿服务': ['志愿者', '互助', '团结', '一起', '参与', '服务', '义务', '公益', '志愿', '协作', '协同', '组织', '协调', '安排', '调度', '指挥', '统筹', '配合', '合作', '联合', '心理疏导', '疏散引导', '信息整理', '线上协助'],
+                '情感支持': ['加油', '支持', '鼓励', '安慰', '理解', '坚强', '挺住', '坚持', '相信', '希望', '慰问', '祈福', '祝福', '团结', '陪伴', '共度难关', '共克时艰', '同舟共济', '携手', '温暖', '善意', '关心', '问候']
+            },
+            '求助行为': {
+                '生命安全求助': ['救命', '被困', '危险', '紧急', '快', '急', '救援', '转移', '疏散', '洪水', '台风', '暴雨', '灾害', '险情', '求救', '救我', '救救', '救助', '生命', '受伤', '失联', '失踪', '被困人员', '被困地点', '需要救援', '需要救助', '需要转移', '需要疏散'],
+                '生活需求求助': ['求助', '需要帮助', '帮忙', '支持', '援助', '食物', '饮用水', '水', '药品', '物资', '生活物资', '生活用品', '缺水', '缺粮', '缺药', '缺物资', '缺食物', '缺饮用水', '缺生活用品', '缺必需品', '缺救援物资', '缺救灾物资', '缺药品', '缺医疗', '缺电', '缺气', '缺衣服', '缺被褥', '缺帐篷', '缺床', '缺卫生用品', '缺婴儿用品', '缺奶粉', '缺尿不湿', '缺卫生巾', '缺纸巾', '缺口罩', '缺消毒液', '缺防疫物资']
             }
         }
-        logger.info(f"行为关键词词典构建完成，包含 {sum(len(cat) for behavior in behavior_keywords.values() for cat in behavior.values())} 个关键词")
+        logger.info(f"新版行为关键词词典构建完成，包含 {sum(len(cat) for behavior in behavior_keywords.values() for cat in behavior.values())} 个关键词")
         return behavior_keywords
     
     def load_data(self, data_path, max_samples=1000):
@@ -229,20 +226,14 @@ class BERTopicBehaviorClassifier:
             
             # 计算该主题的行为得分
             behavior_scores = {
-                '紧急求助行为': 0,
                 '信息搜索行为': 0,
-                '互助支援行为': 0
+                '亲社会行为': 0,
+                '求助行为': 0
             }
             
             # 改进的关键词匹配逻辑
             for doc in topic_docs:
                 doc_lower = str(doc).lower()
-                
-                # 紧急求助行为关键词匹配
-                for category, keywords in self.behavior_keywords['紧急求助行为'].items():
-                    for keyword in keywords:
-                        if keyword in doc_lower:
-                            behavior_scores['紧急求助行为'] += 1
                 
                 # 信息搜索行为关键词匹配
                 for category, keywords in self.behavior_keywords['信息搜索行为'].items():
@@ -250,28 +241,34 @@ class BERTopicBehaviorClassifier:
                         if keyword in doc_lower:
                             behavior_scores['信息搜索行为'] += 1
                 
-                # 互助支援行为关键词匹配
-                for category, keywords in self.behavior_keywords['互助支援行为'].items():
+                # 亲社会行为关键词匹配
+                for category, keywords in self.behavior_keywords['亲社会行为'].items():
                     for keyword in keywords:
                         if keyword in doc_lower:
-                            behavior_scores['互助支援行为'] += 1
+                            behavior_scores['亲社会行为'] += 1
+                
+                # 求助行为关键词匹配
+                for category, keywords in self.behavior_keywords['求助行为'].items():
+                    for keyword in keywords:
+                        if keyword in doc_lower:
+                            behavior_scores['求助行为'] += 1
                 
                 # 额外的语义分析：检查是否包含支援、帮助等词汇
                 support_keywords = ['支援', '帮助', '协助', '救援', '救助', '志愿者', '捐赠', '提供', '分享', '免费', '互助', '团结', '一起', '参与', '服务', '加油', '支持', '鼓励', '安慰', '理解', '坚强']
                 for keyword in support_keywords:
                     if keyword in doc_lower:
-                        behavior_scores['互助支援行为'] += 0.5  # 给予部分得分
+                        behavior_scores['亲社会行为'] += 0.5  # 给予部分得分
             
             # 记录得分最高的行为类型
             if max(behavior_scores.values()) > 0:
-                # 改进的分类策略：如果互助支援行为得分较高，优先分类为互助支援行为
-                support_score = behavior_scores['互助支援行为']
-                emergency_score = behavior_scores['紧急求助行为']
+                # 改进的分类策略：如果亲社会行为得分较高，优先分类为亲社会行为
+                support_score = behavior_scores['亲社会行为']
                 info_score = behavior_scores['信息搜索行为']
+                emergency_score = behavior_scores['求助行为']
                 
-                # 如果互助支援行为得分超过紧急求助行为的50%，且绝对得分超过10，优先分类为互助支援行为
-                if support_score > 10 and support_score >= emergency_score * 0.5:
-                    dominant_behavior = '互助支援行为'
+                # 如果亲社会行为得分超过信息搜索行为的50%，且绝对得分超过10，优先分类为亲社会行为
+                if support_score > 10 and support_score >= info_score * 0.5:
+                    dominant_behavior = '亲社会行为'
                 else:
                     # 否则选择得分最高的行为类型
                     dominant_behavior = max(behavior_scores.items(), key=lambda x: x[1])[0]
@@ -359,12 +356,12 @@ class BERTopicBehaviorClassifier:
         unique_labels = sorted(set(list(y_test) + list(y_pred)))
         target_names = []
         for label in unique_labels:
-            if '紧急求助' in label:
-                target_names.append('紧急求助行为')
+            if '求助' in label:
+                target_names.append('求助行为')
             elif '信息搜索' in label:
                 target_names.append('信息搜索行为')
-            elif '互助支援' in label:
-                target_names.append('互助支援行为')
+            elif '亲社会' in label:
+                target_names.append('亲社会行为')
             else:
                 target_names.append(label)
         
@@ -419,10 +416,9 @@ class BERTopicBehaviorClassifier:
         
         # 主题-行为映射热力图
         plt.subplot(2, 2, 3)
+        behavior_types = ['信息搜索行为', '亲社会行为', '求助行为']
         topic_behavior_matrix = []
         topic_ids = []
-        behavior_types = ['紧急求助行为', '信息搜索行为', '互助支援行为']
-        
         for topic_id, mapping in self.topic_behavior_mapping.items():
             topic_ids.append(f'Topic_{topic_id}')
             scores = [mapping['scores'].get(bt, 0) for bt in behavior_types]
@@ -467,7 +463,7 @@ class BERTopicBehaviorClassifier:
 ## 1. 实验概述
 - 数据量: {len(df)} 条微博
 - 主题数量: {len(self.topic_behavior_mapping)} 个有效主题
-- 行为类别: 3类（紧急求助行为、信息搜索行为、互助支援行为）
+- 行为类别: 3类（信息搜索行为、亲社会行为、求助行为）
 
 ## 2. 模型性能
 - 精确率: {evaluation_results['precision']:.4f}
@@ -571,7 +567,7 @@ class BERTopicBehaviorClassifier:
     def _detailed_analysis(self, texts, behavior_labels, topic_behavior_mapping, behavior_distribution):
         """详细分析功能（从测试脚本合并）"""
         logger.info("\n=== 详细行为分析 ===")
-        for behavior_type in ['紧急求助行为', '信息搜索行为', '互助支援行为']:
+        for behavior_type in ['信息搜索行为', '亲社会行为', '求助行为']:
             count = behavior_distribution.get(behavior_type, 0)
             percentage = (count / len(behavior_labels)) * 100 if len(behavior_labels) > 0 else 0
             logger.info(f"{behavior_type}: {count} 条 ({percentage:.1f}%)")
@@ -582,18 +578,18 @@ class BERTopicBehaviorClassifier:
             logger.info(f"Topic {topic_id}: {mapping['behavior']} (文档数: {mapping['doc_count']})")
             logger.info(f"  得分详情: {mapping['scores']}")
         
-        # 检查是否有互助支援行为
-        support_behavior_count = behavior_distribution.get('互助支援行为', 0)
+        # 检查是否有亲社会行为
+        support_behavior_count = behavior_distribution.get('亲社会行为', 0)
         if support_behavior_count > 0:
-            logger.info(f"\n✅ 成功识别到 {support_behavior_count} 条互助支援行为")
+            logger.info(f"\n✅ 成功识别到 {support_behavior_count} 条亲社会行为")
             
-            # 显示互助支援行为的示例
-            support_indices = [i for i, label in enumerate(behavior_labels) if label == '互助支援行为']
-            logger.info("\n互助支援行为示例:")
+            # 显示亲社会行为的示例
+            support_indices = [i for i, label in enumerate(behavior_labels) if label == '亲社会行为']
+            logger.info("\n亲社会行为示例:")
             for i, idx in enumerate(support_indices[:3]):  # 显示前3个示例
                 logger.info(f"示例 {i+1}: {texts[idx][:100]}...")
         else:
-            logger.warning("\n⚠️ 未识别到互助支援行为，可能需要进一步调整关键词或数据")
+            logger.warning("\n⚠️ 未识别到亲社会行为，可能需要进一步调整关键词或数据")
             
             # 分析可能的原因
             logger.info("\n分析可能的原因:")
